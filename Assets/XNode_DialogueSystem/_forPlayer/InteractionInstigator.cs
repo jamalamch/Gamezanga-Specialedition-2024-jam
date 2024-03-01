@@ -6,7 +6,7 @@ using TMPro;
 
 public class InteractionInstigator : MonoBehaviour{
 
-    public GameObject DialogueBox;
+    public PanelDialog DialogueBox;
     public GameObject Player;
     private List<Interactable> m_NearbyInteractables = new List<Interactable>();
 
@@ -14,12 +14,12 @@ public class InteractionInstigator : MonoBehaviour{
         return m_NearbyInteractables.Count != 0;
     }
     private void Start(){
-        DialogueBox.SetActive(false);
+        DialogueBox.Close();
     }
 
     private void Update(){
         if (HasNearbyInteractables() && Input.GetButtonDown("Submit")){
-            DialogueBox.SetActive(true);
+            DialogueBox.Open();
             Player.GetComponent<InteractionInstigator>().enabled = false;
             Player.GetComponent<RigidbodyFirstPersonController>().enabled = false;
             Cursor.visible = true;

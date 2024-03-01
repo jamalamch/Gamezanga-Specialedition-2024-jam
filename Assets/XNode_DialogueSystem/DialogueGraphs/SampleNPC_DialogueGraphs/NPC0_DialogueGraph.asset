@@ -43,8 +43,8 @@ MonoBehaviour:
       _connectionType: 0
       _typeConstraint: 0
       _dynamic: 0
-  speakerName: NPC_0
-  dialogueLine: "\uFEE9 \uFEAD\uFE8E\uFEA0\uFEB7\uFEFB\uFE8D \uFE94\uFECB\uFE8D\uFEAD\uFEAF
+  speakerName: 0
+  dialogueLine: "\uFEAD\uFE8E\uFEA0\uFEB7\uFEFB\uFE8D \uFE94\uFECB\uFE8D\uFEAD\uFEAF
     \uFEE6\uFECB \uFEE5\uFEEE\uFEDC\uFEF4\uFEB3 \uFEE1\uFEEE\uFEF4\uFEDF\uFE8D \uFEC1\uFE8E\uFEB8\uFEE7"
 --- !u!114 &-7962440040356805353
 MonoBehaviour:
@@ -119,7 +119,7 @@ MonoBehaviour:
   Answers:
   - "\uFE80\uFE8D\uFEEE\uFEEC\uFEDF\uFE8D \uFE93\uFEA9\uFEEE\uFE9F \uFEE6\uFEF4\uFEB4\uFEA4\uFE97 "
   - "\uFEAE\uFEF4\uFEB4\uFEDF\uFE8D \uFE95\uFEA9\uFE8D\uFEEE\uFEA3 \uFEDE\uFEF4\uFEE0\uFED8\uFE97"
-  speakerName: 'NPC_0 '
+  speakerName: 0
   DialogueText: "\u061F\uFE93\uFEAE\uFEC0\uFEA4\uFEDF\uFE8D \uFEF2\uFED3 \uFEAD\uFE8E\uFEA0\uFEB7\uFEF7\uFE8D
     \uFE94\uFECB\uFE8D\uFEAD\uFEAF \uFEAA\uFE8B\uFE8D\uFEEE\uFED3 \uFEAA\uFEA3\uFE83
     \uFEF2\uFEEB \uFE8E\uFEE3"
@@ -207,7 +207,7 @@ MonoBehaviour:
   - "\uFEF2\uFE8B\uFEEE\uFEC0\uFEDF\uFE8D \uFEDE\uFEF4\uFE9C\uFEE4\uFE98\uFEDF\uFE8D"
   - "\uFEF2\uFE97\uFEEE\uFEBC\uFEDF\uFE8D \uFEDE\uFEF4\uFE9C\uFEE4\uFE98\uFEDF\uFE8D"
   - "\uFEAE\uFEC0\uFEA7\uFEFB\uFE8D \uFEDE\uFEF4\uFE9C\uFEE4\uFE98\uFEDF\uFE8D"
-  speakerName: 'NPC_0 '
+  speakerName: 0
   DialogueText: "\u061F\uFEAD\uFE8E\uFEA0\uFEB7\uFEF7\uFE8D \uFEF2\uFED3 \uFE94\uFED7\uFE8E\uFEC3
     \uFEF0\uFEDF\uFE87 \uFE80\uFEEE\uFEC0\uFEDF\uFE8D \uFEDD\uFEEE\uFEA4\uFE97 \uFEF2\uFE98\uFEDF\uFE8D
     \uFE94\uFEF4\uFEE0\uFEE4\uFECC\uFEDF\uFE8D \uFED2\uFEBC\uFEF3 \uFEA2\uFEE0\uFEC4\uFEBC\uFEE3
@@ -255,7 +255,7 @@ MonoBehaviour:
       _connectionType: 0
       _typeConstraint: 0
       _dynamic: 0
-  speakerName: NPC_0
+  speakerName: 0
   dialogueLine: ".\uFEA2\uFEF4\uFEA4\uFEBC\uFEDF\uFE8D \uFEA2\uFEE0\uFEC4\uFEBC\uFEE4\uFEDF\uFE8D
     \uFEEE\uFEEB \uFEAE\uFEA4\uFEBC\uFE98\uFEDF\uFE8D !\uFEA2\uFEF4\uFEA4\uFEBB \u060C\uFEE2\uFECC\uFEE7"
 --- !u!114 &-6465821589382544144
@@ -301,7 +301,7 @@ MonoBehaviour:
       _connectionType: 0
       _typeConstraint: 0
       _dynamic: 0
-  speakerName: NPC_0
+  speakerName: 0
   dialogueLine: ".\uFEA2\uFEF4\uFEA4\uFEBC\uFEDF\uFE8D \uFEA2\uFEE0\uFEC4\uFEBC\uFEE4\uFEDF\uFE8D
     \uFEEE\uFEEB \uFE90\uFEF3\uFEAC\uFEB8\uFE98\uFEDF\uFE8D !\uFEA2\uFEF4\uFEA4\uFEBB
     \u060C\uFEE2\uFECC\uFEE7 "
@@ -348,7 +348,7 @@ MonoBehaviour:
       _connectionType: 0
       _typeConstraint: 0
       _dynamic: 0
-  speakerName: 'NPC_0 '
+  speakerName: 0
   dialogueLine: "\uFEE1\uFEEE\uFEF4\uFEDF\uFE8D \uFEAF\uFE8E\uFED0\uFEDF\uFEF7\uFE8D
     \uFE94\uFE92\uFECC\uFEDF \uFEF2\uFED3 \uFEE2\uFEDC\uFE91 \uFE8D\u064B\uFE92\uFEA3\uFEAE\uFEE3 "
 --- !u!114 &-6203941675146055393
@@ -424,7 +424,7 @@ MonoBehaviour:
   Answers:
   - "\uFEE5\uFEED\uFEAF\uFE8E\uFEE3\uFEF7\uFE8D \uFE94\uFE91\uFE8E\uFECF "
   - "\uFE93\uFEAD\uFEEE\uFEE4\uFECC\uFEE4\uFEDF\uFE8D \uFE94\uFE91\uFE8E\uFECF"
-  speakerName: 'NPC_0 '
+  speakerName: 0
   DialogueText: "\u061F\uFEE2\uFEDF\uFE8E\uFECC\uFEDF\uFE8D \uFEF2\uFED3 \uFE94\uFEF4\uFE8B\uFE8D\uFEEE\uFE98\uFEB3\uFE8D
     \uFE94\uFE91\uFE8E\uFECF \uFEAE\uFE92\uFEDB\uFE83 \uFEAA\uFECC\uFE97\uFEED \uFEDE\uFEF3\uFEAF\uFE8D\uFEAE\uFE92\uFEDF\uFE8D
     \uFEF2\uFED3 \uFECA\uFED8\uFE97 \uFEF2\uFE98\uFEDF\uFE8D \uFE93\uFEAE\uFEF4\uFEEC\uFEB8\uFEDF\uFE8D
@@ -500,7 +500,7 @@ MonoBehaviour:
   Answers:
   - "\uFE90\uFEF3\uFEAC\uFEB8\uFE98\uFEDF\uFE8D"
   - "\uFECA\uFEF4\uFEC4\uFED8\uFE98\uFEDF\uFE8D"
-  speakerName: 'NPC_0 '
+  speakerName: 0
   DialogueText: "\u061F\uFE8E\uFEEB\uFEEE\uFEE4\uFEE7\uFEED \uFE8E\uFEEC\uFEE0\uFEDC\uFEB7
     \uFEE6\uFEF4\uFEB4\uFEA4\uFE98\uFEDF \uFE93\uFEAE\uFEA0\uFEB8\uFEDF\uFE8D \uFEC9\uFEED\uFEAE\uFED3
     \uFEE2\uFEF4\uFEE0\uFED8\uFE97 \uFEF0\uFEDF\uFE87 \uFEAE\uFEF4\uFEB8\uFEF3 \uFEF1\uFEAC\uFEDF\uFE8D
@@ -554,7 +554,7 @@ MonoBehaviour:
       _connectionType: 0
       _typeConstraint: 0
       _dynamic: 0
-  speakerName: NPC_0
+  speakerName: 0
   dialogueLine: ".\uFE94\uFEA4\uFEF4\uFEA4\uFEBC\uFEDF\uFE8D \uFE94\uFE91\uFE8E\uFE9F\uFEF9\uFE8D
     \uFEF2\uFEEB \uFE94\uFEA3\uFEFC\uFED4\uFEDF\uFE8D !\uFEA2\uFEF4\uFEA4\uFEBB \u060C\uFEE2\uFECC\uFEE7"
 --- !u!114 &-5067938004040222690
@@ -600,7 +600,7 @@ MonoBehaviour:
       _connectionType: 0
       _typeConstraint: 0
       _dynamic: 0
-  speakerName: NPC_0
+  speakerName: 0
   dialogueLine: ".\uFEA2\uFEF4\uFEA4\uFEBC\uFEDF\uFE8D \uFEA2\uFEE0\uFEC4\uFEBC\uFEE4\uFEDF\uFE8D
     \uFEEE\uFEEB \uFED1\uFE8E\uFED4\uFEA0\uFEDF\uFE8D !\uFEA2\uFEF4\uFEA4\uFEBB \u060C\uFEE2\uFECC\uFEE7 "
 --- !u!114 &-4962707265684960756
@@ -649,7 +649,7 @@ MonoBehaviour:
       _connectionType: 0
       _typeConstraint: 0
       _dynamic: 0
-  speakerName: NPC_0
+  speakerName: 0
   dialogueLine: ".\uFE94\uFEF4\uFEDC\uFEF3\uFEAE\uFEE3\uFEF7\uFE8D \uFE93\uFEAA\uFEA4\uFE98\uFEE4\uFEDF\uFE8D
     \uFE95\uFE8E\uFEF3\uFEFB\uFEEE\uFEE0\uFEDF \uFEF2\uFEE8\uFEC3\uFEED \uFEB0\uFEE3\uFEAD
     \uFEF2\uFEEB \uFEC1\uFEEE\uFEE0\uFE92\uFEDF\uFE8D \uFE93\uFEAE\uFEA0\uFEB7 !\uFEA2\uFEF4\uFEA4\uFEBB
@@ -727,7 +727,7 @@ MonoBehaviour:
   Answers:
   - "\uFEE5\uFEEE\uFE91\uFEAE\uFEDC\uFEDF\uFE8D \uFEAA\uFEF4\uFEB4\uFEDB\uFE83 \uFEF2\uFEE7\uFE8E\uFE9B"
   - "\uFEE5\uFEED\uFEAF\uFEED\uFEF7\uFE8D \uFEAF\uFE8E\uFECF"
-  speakerName: 'NPC_0 '
+  speakerName: 0
   DialogueText: "\u061F\uFEF2\uFE8B\uFEEE\uFEC0\uFEDF\uFE8D \uFEDE\uFEF4\uFE9C\uFEE4\uFE98\uFEDF\uFE8D
     \uFE94\uFEF4\uFEE0\uFEE4\uFECB \uFEDD\uFEFC\uFEA7 \uFEAD\uFE8E\uFEA0\uFEB7\uFEF7\uFE8D
     \uFEEA\uFEBC\uFE98\uFEE4\uFEF3 \uFEF1\uFEAC\uFEDF\uFE8D \uFEAF\uFE8E\uFED0\uFEDF\uFE8D
@@ -775,7 +775,7 @@ MonoBehaviour:
       _connectionType: 0
       _typeConstraint: 0
       _dynamic: 0
-  speakerName: NPC_0
+  speakerName: 0
   dialogueLine: "\u061F\uFE94\uFE91\uFE8E\uFE9F\uFEF9\uFE8D \uFED1\uFEAE\uFECC\uFEF3
     \uFEAA\uFEA3\uFE83 \uFEDE\uFEEB .\uFEED\uFEAE\uFEB4\uFEDF\uFE8D \uFE93\uFEAE\uFEA0\uFEB7
     \uFE96\uFEB4\uFEF4\uFEDF \u060C\uFEFB"
@@ -822,7 +822,7 @@ MonoBehaviour:
       _connectionType: 0
       _typeConstraint: 0
       _dynamic: 0
-  speakerName: NPC_0
+  speakerName: 0
   dialogueLine: "\uFE94\uFE8C\uFEF4\uFE92\uFEDF\uFE8D \uFEF0\uFEE0\uFECB \uFEC5\uFE8E\uFED4\uFEA4\uFEE0\uFEDF
     \uFEAD\uFE8E\uFEA0\uFEB7\uFEF7\uFE8D \uFE94\uFECB\uFE8D\uFEAD\uFEAF \uFEF0\uFEDF\uFE87
     \uFED1\uFEAA\uFEEC\uFEF3 \uFEC1\uFE8E\uFEB8\uFEE7 \uFEEA\uFEE7\uFE87 .\uFE94\uFEBF\uFE8E\uFEF3\uFEAD
@@ -870,7 +870,7 @@ MonoBehaviour:
       _connectionType: 0
       _typeConstraint: 0
       _dynamic: 0
-  speakerName: NPC_0
+  speakerName: 0
   dialogueLine: ".\uFE94\uFEF3\uFEAE\uFEC0\uFEA4\uFEDF\uFE8D \uFED6\uFEC3\uFE8E\uFEE8\uFEE4\uFEDF\uFE8D
     \uFEF2\uFED3 \uFE80\uFE8D\uFEEE\uFEEC\uFEDF\uFE8D \uFE93\uFEA9\uFEEE\uFE9F \uFEE6\uFEF4\uFEB4\uFEA4\uFE97
     \uFEF2\uFED3 \uFEE2\uFEEB\uFE8E\uFEB4\uFE97 \uFEAD\uFE8E\uFEA0\uFEB7\uFEF7\uFE8D
@@ -918,7 +918,7 @@ MonoBehaviour:
       _connectionType: 0
       _typeConstraint: 0
       _dynamic: 0
-  speakerName: NPC_0
+  speakerName: 0
   dialogueLine: "\u061F\uFE94\uFE91\uFE8E\uFE9F\uFEF9\uFE8D \uFED1\uFEAE\uFECC\uFEF3
     \uFEAA\uFEA3\uFE83 \uFEDE\uFEEB .\uFEC1\uFEEE\uFEE0\uFE92\uFEDF\uFE8D \uFE93\uFEAE\uFEA0\uFEB7
     \uFE96\uFEB4\uFEF4\uFEDF \u060C\uFEFB "
@@ -992,7 +992,7 @@ MonoBehaviour:
   Answers:
   - "\uFED1\uFE8E\uFED4\uFEA0\uFEDF\uFE8D"
   - "\uFE94\uFE91\uFEEE\uFEC3\uFEAE\uFEDF\uFE8D"
-  speakerName: 'NPC_0 '
+  speakerName: 0
   DialogueText: "\u061F\uFE94\uFEE0\uFEF3\uFEEE\uFEC3 \uFE93\uFEAE\uFE98\uFED4\uFEDF
     \uFEAD\uFE8E\uFEC4\uFEE3\uFEF7\uFE8D \uFEA9\uFEEE\uFE9F\uFEED \uFEE1\uFEAA\uFECB
     \uFE94\uFEDF\uFE8E\uFEA3 \uFED2\uFEBC\uFEF3 \uFEF1\uFEAC\uFEDF\uFE8D \uFEA2\uFEE0\uFEC4\uFEBC\uFEE4\uFEDF\uFE8D
@@ -1043,7 +1043,7 @@ MonoBehaviour:
       _connectionType: 0
       _typeConstraint: 0
       _dynamic: 0
-  speakerName: NPC_0
+  speakerName: 0
   dialogueLine: "\uFEA2\uFEF4\uFEA4\uFEBC\uFEDF\uFE8D \uFEA2\uFEE0\uFEC4\uFEBC\uFEE4\uFEDF\uFE8D
     \uFEEE\uFEEB \uFEF2\uFE8B\uFEEE\uFEC0\uFEDF\uFE8D \uFEDE\uFEF4\uFE9C\uFEE4\uFE98\uFEDF\uFE8D
     !\uFE8A\uFEC3\uFE8E\uFEA7 \uFEFB"
@@ -1165,7 +1165,7 @@ MonoBehaviour:
   - "\uFEDE\uFEF4\uFEA8\uFEE8\uFEDF\uFE8D"
   - "\uFEAF\uFEEE\uFEE4\uFEDF\uFE8D"
   - "\uFEAF\uFEEE\uFEE4\uFEDF\uFE8D"
-  speakerName: 'NPC_0 '
+  speakerName: 0
   DialogueText: "\r\uFE8E\uFEEC\uFE98\uFECB\uFE8D\uFEAD\uFEB0\uFE91 \uFE94\uFEF3\uFEA9\uFEEE\uFECC\uFEB4\uFEDF\uFE8D
     \uFE94\uFEF4\uFE91\uFEAE\uFECC\uFEDF\uFE8D \uFE94\uFEDC\uFEE0\uFEE4\uFEE4\uFEDF\uFE8D
     \uFE8E\uFEEC\uFE91 \uFEAE\uFEEC\uFE98\uFEB8\uFE97 \uFEF2\uFE98\uFEDF\uFE8D \uFE93\uFEAE\uFEA0\uFEB8\uFEDF\uFE8D
@@ -1216,7 +1216,7 @@ MonoBehaviour:
       _connectionType: 0
       _typeConstraint: 0
       _dynamic: 0
-  speakerName: NPC_0
+  speakerName: 0
   dialogueLine: "\uFE94\uFEA4\uFEF4\uFEA4\uFEBC\uFEDF\uFE8D \uFE94\uFE91\uFE8E\uFE9F\uFEF9\uFE8D
     \uFEEE\uFEEB \uFEE5\uFEEE\uFE91\uFEAE\uFEDC\uFEDF\uFE8D \uFEAA\uFEF4\uFEB4\uFEDB\uFE83
     \uFEF2\uFEE7\uFE8E\uFE9B !\uFEA2\uFEF4\uFEA4\uFEBB "
@@ -1294,7 +1294,7 @@ MonoBehaviour:
   - "\uFE94\uFEF4\uFEDC\uFEF3\uFEAD\uFE8E\uFE98\uFEB3\uFEEE\uFEDC\uFEDF\uFE8D \uFEED\uFEAE\uFEB4\uFEDF\uFE8D
     \uFE93\uFEAE\uFEA0\uFEB7  "
   - "\uFEEE\uFE9F\uFE8E\uFEB4\uFEDF\uFE8D \uFE93\uFEAE\uFEA0\uFEB7 \uFEF2\uFEEB \uFEDE\uFEEB"
-  speakerName: 'NPC_0 '
+  speakerName: 0
   DialogueText: "\u061F\uFEE2\uFEA0\uFEA4\uFEDF\uFE8D \uFE9A\uFEF4\uFEA3 \uFEE6\uFEE3
     \uFEE2\uFEDF\uFE8E\uFECC\uFEDF\uFE8D \uFEF2\uFED3 \uFE93\uFEAE\uFEA0\uFEB7 \uFEAE\uFE92\uFEDB\uFE83
     \uFE8E\uFEEC\uFEE7\uFE84\uFE91 \uFE94\uFED3\uFEED\uFEAE\uFECC\uFEE4\uFEDF\uFE8D
@@ -1348,7 +1348,7 @@ MonoBehaviour:
       _connectionType: 0
       _typeConstraint: 0
       _dynamic: 0
-  speakerName: NPC_0
+  speakerName: 0
   dialogueLine: "\uFEAD\uFE8E\uFEA0\uFEB7\uFEFB\uFE8D \uFE94\uFECB\uFE8D\uFEAD\uFEB0\uFEDF
     \uFE94\uFEF4\uFE8C\uFEF4\uFE91 \uFE93\uFEAA\uFE8B\uFE8E\uFED3 \uFED9\uFE8E\uFEE8\uFEEB
     !\uFE80\uFE8E\uFEC4\uFEA7 \uFEFB"
@@ -1425,7 +1425,7 @@ MonoBehaviour:
   Answers:
   - "\uFE90\uFED8\uFEF4\uFED8\uFEDF\uFE8D \uFE93\uFEAE\uFEA0\uFEB7 "
   - "\uFEC1\uFEEE\uFEE0\uFE92\uFEDF\uFE8D \uFE93\uFEAE\uFEA0\uFEB7"
-  speakerName: 'NPC_0 '
+  speakerName: 0
   DialogueText: "\uFE94\uFEF4\uFEDC\uFEF3\uFEAE\uFEE3\uFEF7\uFE8D \uFE93\uFEAA\uFEA4\uFE98\uFEE4\uFEDF\uFE8D
     \uFE95\uFE8E\uFEF3\uFEFB\uFEEE\uFEE0\uFEDF \uFEF2\uFEE8\uFEC3\uFEED \uFEB0\uFEE3\uFEAD
     \uFE8E\uFEEC\uFEE7\uFE84\uFE91 \uFE94\uFED3\uFEED\uFEAE\uFECC\uFEE4\uFEDF\uFE8D
@@ -1473,7 +1473,7 @@ MonoBehaviour:
       _connectionType: 0
       _typeConstraint: 0
       _dynamic: 0
-  speakerName: NPC_0
+  speakerName: 0
   dialogueLine: ".\uFEF2\uFECB\uFE8D\uFEAD\uFEB0\uFEDF\uFE8D \uFEC9\uFE8E\uFEC4\uFED8\uFEDF\uFE8D
     \uFEF2\uFED3 \uFEDE\uFEE4\uFECB \uFEB9\uFEAE\uFED3 \uFEA9\uFE8E\uFEA0\uFEF3\uFE87
     \uFEF2\uFED3 \uFEE2\uFEEC\uFEB4\uFE97 \uFEE5\uFE83 \uFEE6\uFEDC\uFEE4\uFEF3 \uFEAD\uFE8E\uFEA0\uFEB7\uFEF7\uFE8D
@@ -1521,7 +1521,7 @@ MonoBehaviour:
       _connectionType: 0
       _typeConstraint: 0
       _dynamic: 0
-  speakerName: NPC_0
+  speakerName: 0
   dialogueLine: "\r\uFE94\uFEE0\uFEE4\uFECC\uFEDF\uFE8D \uFED1\uFEAE\uFEBB \uFEAE\uFECC\uFEB4\uFE91
     \uFE94\uFEC4\uFE92\uFE97\uFEAE\uFEE4\uFEDF\uFE8D \uFE93\u0651\uFEF4\uFE8B\uFE8D\uFEAE\uFEB8\uFEDF\uFE8D
     \uFE93\uFEAD\uFEAA\uFED8\uFEDF\uFE8D \uFEF2\uFED3 \uFEBD\uFE8E\uFED4\uFEA8\uFEE7\uFE8D
@@ -1576,7 +1576,7 @@ MonoBehaviour:
       _connectionType: 0
       _typeConstraint: 0
       _dynamic: 0
-  speakerName: NPC_0
+  speakerName: 0
   dialogueLine: ".\uFEE1\uFEFC\uFED7\uFEF7\uFE8D \uFECA\uFEE8\uFEBB \uFEF2\uFED3
     \uFE8E\uFEEC\uFE92\uFEB8\uFEA7 \uFEE1\uFEAA\uFEA8\uFE98\uFEB3\u064F\uFEF3 \uFEF2\uFE98\uFEDF\uFE8D
     \uFE93\uFEAE\uFEA0\uFEB8\uFEDF\uFE8D \uFEF2\uFEEB \uFEED\uFEAE\uFEB4\uFEDF\uFE8D
@@ -1624,7 +1624,7 @@ MonoBehaviour:
       _connectionType: 0
       _typeConstraint: 0
       _dynamic: 0
-  speakerName: NPC_0
+  speakerName: 0
   dialogueLine: "\uFE94\uFED3\uFE8E\uFEA0\uFEDF\uFE8D \uFED6\uFEC3\uFE8E\uFEE8\uFEE4\uFEDF\uFE8D
     \uFEF2\uFED3 \uFE8E\uFEBB\uFEEE\uFEBC\uFEA7 \uFE94\uFEF4\uFE8B\uFE8E\uFEE4\uFEDF\uFE8D
     \uFE94\uFEB7\uFEAE\uFED4\uFEDF\uFE8D \uFED1\uFE8D\uFEB0\uFEE8\uFE98\uFEB3\uFE8D
@@ -1674,7 +1674,7 @@ MonoBehaviour:
       _connectionType: 0
       _typeConstraint: 0
       _dynamic: 0
-  speakerName: NPC_0
+  speakerName: 0
   dialogueLine: ".\uFEF2\uFECB\uFE8D\uFEAD\uFEB0\uFEDF\uFE8D \uFEC9\uFE8E\uFEC4\uFED8\uFEDF\uFE8D
     \uFEF2\uFED3 \uFEDE\uFEE4\uFECB \uFEB9\uFEAE\uFED3 \uFEA9\uFE8E\uFEA0\uFEF3\uFE87
     \uFEF2\uFED3 \uFEE2\uFEEC\uFEB4\uFE97 \uFEE5\uFE83 \uFEE6\uFEDC\uFEE4\uFEF3 \uFEAD\uFE8E\uFEA0\uFEB7\uFEF7\uFE8D
@@ -1722,7 +1722,7 @@ MonoBehaviour:
       _connectionType: 0
       _typeConstraint: 0
       _dynamic: 0
-  speakerName: NPC_0
+  speakerName: 0
   dialogueLine: ".\uFE94\uFEA4\uFEF4\uFEA4\uFEBC\uFEDF\uFE8D \uFE94\uFE91\uFE8E\uFE9F\uFEF9\uFE8D
     \uFEF2\uFEEB \uFEE5\uFEED\uFEAF\uFE8E\uFEE3\uFEF7\uFE8D\n!\uFE8A\uFEC3\uFE8E\uFEA7
     \uFEFB"
@@ -1807,7 +1807,7 @@ MonoBehaviour:
   - {fileID: 1313036179774152676}
   - {fileID: 6352211252447087626}
   start: {fileID: 5398391079699420998}
-  current: {fileID: 108078708666390029}
+  current: {fileID: 7548786468859092389}
   initNode: {fileID: 5398391079699420998}
 --- !u!114 &108078708666390029
 MonoBehaviour:
@@ -1893,7 +1893,7 @@ MonoBehaviour:
   - "\uFE94\uFEBF\uFE8E\uFEF3\uFEAD"
   - "\uFEAA\uFEF4\uFEBC\uFEDF\uFE8D"
   - "\uFE94\uFEA3\uFEFC\uFED4\uFEDF\uFE8D"
-  speakerName: NPC_0
+  speakerName: 0
   DialogueText: "\uFEAD\uFE8E\uFEA0\uFEB7\uFEF7\uFE8D \uFE94\uFECB\uFE8D\uFEAD\uFEAF
     \uFEE6\uFEE4\uFEC0\uFE98\uFEF3 \uFEF1\uFEAC\uFEDF\uFE8D \uFEC1\uFE8E\uFEB8\uFEE8\uFEDF\uFE8D
     \uFEEE\uFEEB \uFE8E\uFEE3"
@@ -1940,7 +1940,7 @@ MonoBehaviour:
       _connectionType: 0
       _typeConstraint: 0
       _dynamic: 0
-  speakerName: NPC_0
+  speakerName: 0
   dialogueLine: "\u061F\uFE94\uFE91\uFE8E\uFE9F\uFEF9\uFE8D \uFED1\uFEAE\uFECC\uFEF3
     \uFEAA\uFEA3\uFE83 \uFEDE\uFEEB .\uFE90\uFED8\uFEF4\uFED8\uFEDF\uFE8D \uFE93\uFEAE\uFEA0\uFEB7
     \uFE96\uFEB4\uFEF4\uFEDF \u060C\uFEFB"
@@ -2033,7 +2033,7 @@ MonoBehaviour:
   - "\uFE8E\uFEEC\uFEE0\uFEBF\uFE91 \uFE94\uFE91\uFEAE\uFE98\uFEDF\uFE8D \uFE96\uFEF4\uFE92\uFE9C\uFE97"
   - "\uFE8E\uFEEC\uFED7\uFE8D\uFEAD\uFEED\uFE8E\uFE91 \uFE94\uFE91\uFEAE\uFE98\uFEDF\uFE8D
     \uFE96\uFEF4\uFE92\uFE9C\uFE97"
-  speakerName: 'NPC_0 '
+  speakerName: 0
   DialogueText: "\u061F\uFEF2\uFEBF\uFEAD\uFEF7\uFE8D \uFEDE\uFEDB\uFE82\uFE98\uFEDF\uFE8D
     \uFEE6\uFEE3 \uFEAA\uFEA4\uFEDF\uFE8D \uFEF2\uFED3 \uFEAA\uFECB\uFE8E\uFEB4\uFE97
     \uFEE5\uFE83 \uFEAD\uFE8E\uFEA0\uFEB7\uFEF8\uFEDF \uFEE6\uFEDC\uFEE4\uFEF3 \uFED2\uFEF4\uFEDB"
@@ -2080,7 +2080,7 @@ MonoBehaviour:
       _connectionType: 0
       _typeConstraint: 0
       _dynamic: 0
-  speakerName: NPC_0
+  speakerName: 0
   dialogueLine: "\uFE8E\uFEEC\uFEF4\uFED3 \uFE94\uFE91\uFEEE\uFEC3\uFEAE\uFEDF\uFE8D
     \uFEB1\uFE8E\uFEF4\uFED7 \uFEE2\uFE97 \uFEF2\uFE98\uFEDF\uFE8D \uFE94\uFEF3\uFEEE\uFE8C\uFEE4\uFEDF\uFE8D
     \uFE93\uFEAD\uFE8D\uFEAE\uFEA4\uFEDF\uFE8D \uFEDA\uFEE0\uFE97 \uFEAA\uFEE8\uFECB
@@ -2134,7 +2134,7 @@ MonoBehaviour:
       _connectionType: 0
       _typeConstraint: 0
       _dynamic: 0
-  speakerName: NPC_0
+  speakerName: 0
   dialogueLine: "\u061F\uFEEE\uFEEB \uFE8E\uFEE3 .\uFEA9\uFE8E\uFEC4\uFEBC\uFEE7
     \uFEB2\uFEF4\uFEDF\uFEED \uFEC9\uFEAD\uFEB0\uFEE7 \uFEE6\uFEA4\uFEE7 \u060C\uFEC1\uFE8E\uFEB8\uFEE8\uFEDF\uFE8D
     \uFE8D\uFEAC\uFEEB \uFEF2\uFED3 .\uFEAA\uFEF4\uFEBC\uFEDF\uFE8D \uFEB2\uFEF4\uFEDF
@@ -2185,7 +2185,7 @@ MonoBehaviour:
       _connectionType: 0
       _typeConstraint: 0
       _dynamic: 0
-  speakerName: NPC_0
+  speakerName: 0
   dialogueLine: ".\uFEDD\uFEFC\uFEC7 \uFEAE\uFEF4\uFED3\uFEEE\uFE97\uFEED \uFE93\uFEAD\uFE8D\uFEAE\uFEA4\uFEDF\uFE8D
     \uFE95\uFE8E\uFE9F\uFEAD\uFEA9 \uFEDE\uFEF4\uFEE0\uFED8\uFE97 \uFEDD\uFEFC\uFEA7
     \uFEE6\uFEE3 \uFEE5\uFEAA\uFEE4\uFEDF\uFE8D \uFEA5\uFE8E\uFEE8\uFEE3 \uFEE6\uFEE3
@@ -2251,7 +2251,7 @@ MonoBehaviour:
       _connectionType: 0
       _typeConstraint: 0
       _dynamic: 0
-  speakerName: NPC_0
+  speakerName: 0
   dialogueLine: "\uFE94\uFEA4\uFEF4\uFEA4\uFEBC\uFEDF\uFE8D \uFE94\uFE91\uFE8E\uFE9F\uFEF9\uFE8D
     \uFEF2\uFEEB \uFEEE\uFE9F\uFE8E\uFEB4\uFEDF\uFE8D \uFE93\uFEAE\uFEA0\uFEB7 !\uFEA2\uFEF4\uFEA4\uFEBB
     \u060C\uFEE2\uFECC\uFEE7"
@@ -2328,7 +2328,7 @@ MonoBehaviour:
   Answers:
   - "\uFEAE\uFEA4\uFEBC\uFE98\uFEDF\uFE8D"
   - "\uFEE2\uFEA8\uFEC0\uFE98\uFEDF\uFE8D"
-  speakerName: 'NPC_0 '
+  speakerName: 0
   DialogueText: "\u061F\uFE94\uFEE3\uFE8D\uFEAA\uFE98\uFEB4\uFEE3 \uFEAE\uFEF4\uFECF
     \uFE94\uFED8\uFEF3\uFEAE\uFEC4\uFE91 \uFE95\uFE8E\uFE91\uFE8E\uFED0\uFEDF\uFE8D
     \uFEE6\uFEE3 \uFEAD\uFE8E\uFEA0\uFEB7\uFEF7\uFE8D \uFE94\uFEDF\uFE8D\uFEAF\uFE87
@@ -2377,7 +2377,7 @@ MonoBehaviour:
       _connectionType: 0
       _typeConstraint: 0
       _dynamic: 0
-  speakerName: NPC_0
+  speakerName: 0
   dialogueLine: "\uFEA2\uFEF4\uFEA4\uFEBC\uFEDF\uFE8D \uFEA2\uFEE0\uFEC4\uFEBC\uFEE4\uFEDF\uFE8D
     \uFEEE\uFEEB \uFE90\uFEF3\uFEAC\uFEB8\uFE98\uFEDF\uFE8D\n!\uFE8A\uFEC3\uFE8E\uFEA7
     \uFEFB"
@@ -2424,7 +2424,7 @@ MonoBehaviour:
       _connectionType: 0
       _typeConstraint: 0
       _dynamic: 0
-  speakerName: NPC_0
+  speakerName: 0
   dialogueLine: "\uFE94\uFEA4\uFEF4\uFEA4\uFEBC\uFEDF\uFE8D \uFE95\uFE8E\uFE91\uFE8E\uFE9F\uFEF9\uFE8D
     \uFEEF\uFEAA\uFEA3\uFE87 \uFEE9\uFEAC\uFEEB \uFEE6\uFEDC\uFEDF\uFEED \u060C\uFED2\uFEE0\uFE98\uFEA8\uFE97
     \uFE93\uFEAE\uFE98\uFED4\uFEDF\uFE8D !\uFEA2\uFEF4\uFEA4\uFEBB"
@@ -2471,7 +2471,7 @@ MonoBehaviour:
       _connectionType: 0
       _typeConstraint: 0
       _dynamic: 0
-  speakerName: NPC_0
+  speakerName: 0
   dialogueLine: ".\uFEA2\uFEF4\uFEA4\uFEBC\uFEDF\uFE8D \uFEA2\uFEE0\uFEC4\uFEBC\uFEE4\uFEDF\uFE8D
     \uFEEE\uFEEB \uFEF2\uFEE7\uFEEE\uFEE0\uFEDF\uFE8D \uFEDD\uFEEE\uFEA4\uFE98\uFEDF\uFE8D
     !\uFEA2\uFEF4\uFEA4\uFEBB \u060C\uFEE2\uFECC\uFEE7 :"
@@ -2527,7 +2527,7 @@ MonoBehaviour:
       _connectionType: 0
       _typeConstraint: 0
       _dynamic: 0
-  speakerName: NPC_0
+  speakerName: 0
   dialogueLine: "\uFE94\uFEDF\uFEED\uFE8E\uFEA4\uFEE4\uFEDF\uFE8D \uFEAA\uFECB\uFE8D
     \uFE94\uFE8C\uFEC3\uFE8E\uFEA7 \uFE94\uFE91\uFE8E\uFE9F\uFE8D"
 --- !u!114 &4325595870556619049
@@ -2573,7 +2573,7 @@ MonoBehaviour:
       _connectionType: 0
       _typeConstraint: 0
       _dynamic: 0
-  speakerName: NPC_0
+  speakerName: 0
   dialogueLine: ".\uFEEE\uFEE4\uFEE8\uFEE0\uFEDF \uFEAD\uFE8E\uFEA0\uFEB7\uFEF7\uFE8D
     \uFE8E\uFEEC\uFE9F\uFE8E\uFE98\uFEA4\uFE97 \uFEF2\uFE98\uFEDF\uFE8D \uFE94\uFEF4\uFEB3\uFE8E\uFEB3\uFEF7\uFE8D
     \uFEAE\uFEBB\uFE8E\uFEE8\uFECC\uFEDF\uFE8D \uFEAA\uFEA3\uFE83 \uFEEE\uFEEB \uFE80\uFE8E\uFEE4\uFEDF\uFE8D
@@ -2624,7 +2624,7 @@ MonoBehaviour:
       _connectionType: 0
       _typeConstraint: 0
       _dynamic: 0
-  speakerName: NPC_0
+  speakerName: 0
   dialogueLine: "\uFE94\uFEDF\uFEED\uFE8E\uFEA4\uFEE4\uFEDF\uFE8D \uFEAA\uFECB\uFE8D
     \uFE94\uFE8C\uFEC3\uFE8E\uFEA7 \uFE94\uFE91\uFE8E\uFE9F\uFE8D"
 --- !u!114 &4977067204710479267
@@ -2673,7 +2673,7 @@ MonoBehaviour:
       _connectionType: 0
       _typeConstraint: 0
       _dynamic: 0
-  speakerName: NPC_0
+  speakerName: 0
   dialogueLine: "\uFE8D\u064B\uFEE3\uFE8E\uFECB 20 \uFEF0\uFEDF\uFE87 10 \uFEE6\uFEF4\uFE91
     \uFEA1\uFEED\uFE8D\uFEAE\uFE98\uFE97  \uFE94\uFE8C\uFEC3\uFE8E\uFEA7 \uFE94\uFE91\uFE8E\uFE9F\uFE8D"
 --- !u!114 &5398391079699420998
@@ -2821,7 +2821,10 @@ MonoBehaviour:
       _node: {fileID: 6152290230982269655}
       _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
         PublicKeyToken=b77a5c561934e089
-      connections: []
+      connections:
+      - fieldName: input
+        node: {fileID: 7712253434343065030}
+        reroutePoints: []
       _direction: 1
       _connectionType: 0
       _typeConstraint: 0
@@ -2830,7 +2833,10 @@ MonoBehaviour:
       _node: {fileID: 6152290230982269655}
       _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
         PublicKeyToken=b77a5c561934e089
-      connections: []
+      connections:
+      - fieldName: input
+        node: {fileID: 7712253434343065030}
+        reroutePoints: []
       _direction: 1
       _connectionType: 0
       _typeConstraint: 0
@@ -2843,7 +2849,7 @@ MonoBehaviour:
   - "\uFE95\uFE8D\uFEAA\uFEF4\uFE92\uFEE4\uFEDF\uFE8D"
   - "\uFEDD\uFE8D\uFEED\uFEB0\uFEDC\uFEDF\uFE8D"
   - "\uFEDA\uFEF4\uFE98\uFEB3\uFEFC\uFE92\uFEDF\uFE8D"
-  speakerName: 'NPC_0 '
+  speakerName: 0
   DialogueText: "\u061F\uFE95\uFE8E\uFE97\uFE8E\uFE92\uFEE8\uFEDF\uFE8D \uFEEE\uFEE4\uFEE7
     \uFEAF\uFEB0\uFECC\uFEF3\uFEED \uFE94\uFE91\uFEAE\uFE98\uFEDF\uFE8D \uFEF2\uFED3
     \uFE8D\u064B\uFEF4\uFEB3\uFE8E\uFEB3\uFE83 \uFE8D\u064B\uFE80\uFEB0\uFE9F \uFEE5\uFEEE\uFEDC\uFEF3
@@ -2894,7 +2900,7 @@ MonoBehaviour:
       _connectionType: 0
       _typeConstraint: 0
       _dynamic: 0
-  speakerName: NPC_0
+  speakerName: 0
   dialogueLine: "\uFEAD\uFEED\uFEAA\uFEA0\uFEDF\uFE8D \uFEDD\uFEFC\uFEA7 \uFEE6\uFEE3
     \uFEE2\uFE98\uFEF3 \uFE94\uFE91\uFEAE\uFE98\uFEDF\uFE8D \uFE96\uFEF4\uFE92\uFE9C\uFE97 
     !\uFE8A\uFEC3\uFE8E\uFEA7 \uFEFB "
@@ -2941,7 +2947,7 @@ MonoBehaviour:
       _connectionType: 0
       _typeConstraint: 0
       _dynamic: 0
-  speakerName: NPC_0
+  speakerName: 0
   dialogueLine: "\uFEA2\uFEF4\uFEA4\uFEBC\uFEDF\uFE8D \uFEA2\uFEE0\uFEC4\uFEBC\uFEE4\uFEDF\uFE8D
     \uFEEE\uFEEB \uFEF2\uFE8B\uFEEE\uFEC0\uFEDF\uFE8D \uFEDE\uFEF4\uFE9C\uFEE4\uFE98\uFEDF\uFE8D
     !\uFEA2\uFEF4\uFEA4\uFEBB \u060C\uFEE2\uFECC\uFEE7"
@@ -2988,7 +2994,7 @@ MonoBehaviour:
       _connectionType: 0
       _typeConstraint: 0
       _dynamic: 0
-  speakerName: NPC_0
+  speakerName: 0
   dialogueLine: "\uFE94\uFEA4\uFEF4\uFEA4\uFEBC\uFEDF\uFE8D \uFE94\uFE91\uFE8E\uFE9F\uFEFB\uFE8D
     \uFEF2\uFEEB \uFEF2\uFEE7\uFEEE\uFEE0\uFEDF\uFE8D \uFEDD\uFEEE\uFEA4\uFE98\uFEDF\uFE8D
     \uFEB2\uFEF4\uFEDF \uFEFB"
@@ -3035,7 +3041,7 @@ MonoBehaviour:
       _connectionType: 0
       _typeConstraint: 0
       _dynamic: 0
-  speakerName: NPC_0
+  speakerName: 0
   dialogueLine: ".\uFEE5\uFEEE\uFE98\uFEF3\uFEB0\uFEDF\uFE8D \uFE96\uFEF3\uFEAF \uFE9D\uFE8E\uFE98\uFEE7\uFE87
     \uFEF2\uFED3 \uFEE1\uFEAA\uFEA8\uFE98\uFEB3\u064F\uFE97 \uFEF2\uFE98\uFEDF\uFE8D
     \uFE94\uFEEC\uFEDB\uFE8E\uFED4\uFEDF\uFE8D \uFEF2\uFEEB \uFEE5\uFEEE\uFE98\uFEF3\uFEB0\uFEDF\uFE8D
@@ -3095,7 +3101,7 @@ MonoBehaviour:
       _connectionType: 0
       _typeConstraint: 0
       _dynamic: 0
-  speakerName: NPC_0
+  speakerName: 0
   dialogueLine: "\uFE94\uFEDF\uFEED\uFE8E\uFEA4\uFEE4\uFEDF\uFE8D \uFEAA\uFECB\uFE8D
     \uFE94\uFE8C\uFEC3\uFE8E\uFEA7 \uFE94\uFE91\uFE8E\uFE9F\uFE8D"
 --- !u!114 &6539994730965677335
@@ -3182,7 +3188,7 @@ MonoBehaviour:
   - "\uFE8D\u064B\uFEE3\uFE8E\uFECB 20 \uFEF0\uFEDF\uFE87 10 \uFEE6\uFEF4\uFE91 \uFEA1\uFEED\uFE8D\uFEAE\uFE98\uFE97 "
   - "\uFEAE\uFEEC\uFEB7 5 \uFEF0\uFEDF\uFE87 1 \uFEE6\uFEF4\uFE91 \uFEA1\uFEED\uFE8D\uFEAE\uFE98\uFE97 "
   - "\uFEE1\uFEEE\uFEF3 20 \uFEF0\uFEDF\uFE87 6 \uFEE6\uFEF4\uFE91 \uFEA1\uFEED\uFE8D\uFEAE\uFE98\uFE97 "
-  speakerName: 'NPC_0 '
+  speakerName: 0
   DialogueText: "\u061F\uFEDE\uFEE3\uFE8E\uFEDB \uFEDE\uFEDC\uFEB8\uFE91 \uFEAD\uFEEE\uFEC4\uFE98\uFEDF\uFE8D\uFEED
     \uFEEE\uFEE4\uFEE8\uFEE0\uFEDF \uFE93\uFEAE\uFEA0\uFEB7 \uFE8E\uFEEC\uFE9F\uFE8E\uFE98\uFEA4\uFE97
     \uFEAA\uFED7 \uFEF2\uFE98\uFEDF\uFE8D \uFE94\uFEF4\uFEE8\uFEE3\uFEB0\uFEDF\uFE8D
@@ -3260,7 +3266,7 @@ MonoBehaviour:
   Answers:
   - "\uFEC1\uFEEE\uFEE0\uFE92\uFEDF\uFE8D"
   - "\uFEED\uFEAE\uFEB4\uFEDF\uFE8D"
-  speakerName: 'NPC_0 '
+  speakerName: 0
   DialogueText: "\u061F\uFEE1\uFEFC\uFED7\uFEF7\uFE8D \uFECA\uFEE8\uFEBB \uFEF2\uFED3
     \uFE8E\uFEEC\uFE92\uFEB8\uFEA7 \uFEE1\uFEAA\uFEA8\uFE98\uFEB3\u064F\uFEF3 \uFEF2\uFE98\uFEDF\uFE8D
     \uFE93\uFEAE\uFEA0\uFEB8\uFEDF\uFE8D \uFEF2\uFEEB \uFE8E\uFEE3"
@@ -3335,7 +3341,7 @@ MonoBehaviour:
   - "\uFEDE\uFEE4\uFECB \uFEB9\uFEAE\uFED3 \uFEAE\uFEF4\uFED3\uFEEE\uFE97 "
   - "\uFE94\uFEF4\uFE8B\uFE8E\uFEE4\uFEDF\uFE8D \uFE94\uFEB7\uFEAE\uFED4\uFEDF\uFE8D
     \uFE94\uFEF3\uFE8E\uFEE4\uFEA3"
-  speakerName: 'NPC_0 '
+  speakerName: 0
   DialogueText: "\u061F\uFEAD\uFE8E\uFEA0\uFEB7\uFEF7\uFE8D \uFE94\uFECB\uFE8D\uFEAD\uFEAF
     \uFE9E\uFEE3\uFE8D\uFEAE\uFE92\uFEDF \uFE94\uFEF3\uFEA9\uFE8E\uFEBC\uFE98\uFED7\uFEFB\uFE8D
     \uFE93\uFEAA\uFE8B\uFE8E\uFED4\uFEDF\uFE8D \uFEF2\uFEEB \uFE8E\uFEE3 "
@@ -3382,7 +3388,7 @@ MonoBehaviour:
       _connectionType: 0
       _typeConstraint: 0
       _dynamic: 0
-  speakerName: NPC_0
+  speakerName: 0
   dialogueLine: "\r\uFE8D\u064B\uFEC0\uFEF3\uFE83 \uFEEF\uFEAE\uFEA7\uFE83 \uFE94\uFEF4\uFE8C\uFEF4\uFE91
     \uFE93\uFEAA\uFE8B\uFE8E\uFED3 \uFED9\uFE8E\uFEE8\uFEEB \uFEE6\uFEDC\uFEDF\uFEED
     !\uFEA2\uFEF4\uFEA4\uFEBB \u060C\uFEE2\uFECC\uFEE7"
@@ -3429,7 +3435,7 @@ MonoBehaviour:
       _connectionType: 0
       _typeConstraint: 0
       _dynamic: 0
-  speakerName: NPC_0
+  speakerName: 0
   dialogueLine: ".\uFE94\uFE91\uFEAE\uFE98\uFEDF\uFE8D \uFEF2\uFED3 \uFE94\uFEF4\uFEB3\uFE8E\uFEB3\uFEF7\uFE8D
     \uFEAE\uFEBB\uFE8E\uFEE8\uFECC\uFEDF\uFE8D \uFEAA\uFEA3\uFE83 \uFEEE\uFEEB \uFEE6\uFEF4\uFE9F\uFEED\uFEAE\uFE98\uFEF4\uFEE8\uFEDF\uFE8D
     !\uFEA2\uFEF4\uFEA4\uFEBB \u060C\uFEE2\uFECC\uFEE7"
@@ -3509,7 +3515,7 @@ MonoBehaviour:
       _connectionType: 0
       _typeConstraint: 0
       _dynamic: 0
-  speakerName: NPC_0
+  speakerName: 0
   dialogueLine: ".\uFE94\uFE91\uFE8E\uFE9F\uFEF9\uFE8D \uFEE6\uFEE3 \uFE80\uFEB0\uFE9F
     \uFEEE\uFEEB \uFE94\uFE91\uFEAE\uFE98\uFEDF\uFE8D \uFE96\uFEF4\uFE92\uFE9C\uFE97
     !\u064B\uFE8D\uFEAA\uFE9F \uFE93\uFEAA\uFEF4\uFE9F !\uFEA2\uFEF4\uFEA4\uFEBB
@@ -3557,7 +3563,7 @@ MonoBehaviour:
       _connectionType: 0
       _typeConstraint: 0
       _dynamic: 0
-  speakerName: NPC_0
+  speakerName: 0
   dialogueLine: "\uFE94\uFE91\uFE8E\uFE9F\uFEF9\uFE8D \uFED1\uFEAE\uFECC\uFEF3 \uFEAA\uFEA3\uFE83
     \uFEDE\uFEEB .\uFEE5\uFEED\uFEAF\uFEED\uFEF7\uFE8D \uFEAF\uFE8E\uFECF \uFEB2\uFEF4\uFEDF
     \u060C\uFEFB"
@@ -3604,7 +3610,7 @@ MonoBehaviour:
       _connectionType: 0
       _typeConstraint: 0
       _dynamic: 0
-  speakerName: NPC_0
+  speakerName: 0
   dialogueLine: "\uFE80\uFE8D\uFEEE\uFEEC\uFEDF\uFE8D \uFE93\uFEA9\uFEEE\uFE9F \uFEE6\uFEB4\uFEA4\uFE97
     \uFE8E\uFEEC\uFEE8\uFEDB\uFEFB \uFEAE\uFEF4\uFEB4\uFEDF\uFE8D \uFE95\uFEA9\uFE8D\uFEEE\uFEA3
     \uFEE6\uFEE3 \uFEDE\uFEE0\uFED8\uFE97\uFEFB \uFEAD\uFE8E\uFEA0\uFEB7\uFEFB\uFE8D
@@ -3708,12 +3714,10 @@ MonoBehaviour:
   - "\uFEDE\uFEE3\uFE8D\uFEAD\uFEFB\uFE8D \uFE94\uFECB\uFE8E\uFEB4\uFEE3"
   - "\uFE8F\uFE8E\uFEEB\uFEAD\uFEFB\uFE8D \uFE94\uFE8C\uFED3\uFE8E\uFEDC\uFEE3"
   - "\uFEDD\uFEAF\uFEFB\uFEB0\uFEDF\uFE8D \uFEE6\uFEE3 \uFE94\uFEF3\uFE8E\uFED7\uFEED"
-  speakerName: 'NPC_0 '
+  speakerName: 0
   DialogueText: "\r\r\u061F\uFEAD\uFE8E\uFEA0\uFEB7\uFEF7\uFE8D \uFE94\uFECB\uFE8D\uFEAD\uFEB0\uFEDF
     \uFE94\uFEF4\uFE8C\uFEF4\uFE92\uFEDF\uFE8D \uFEAA\uFE8B\uFE8D\uFEEE\uFED4\uFEDF\uFE8D
-    \uFEF2\uFEEB \uFE8E\uFEE3\n\r\n\r\n\u061F\uFEAD\uFE8E\uFEA0\uFEB7\uFEF7\uFE8D
-    \uFE94\uFECB\uFE8D\uFEAD\uFEB0\uFEDF \uFE94\uFEF4\uFE8C\uFEF4\uFE92\uFEDF\uFE8D
-    \uFEAA\uFE8B\uFE8D\uFEEE\uFED4\uFEDF\uFE8D \uFEF2\uFEEB \uFE8E\uFEE3"
+    \uFEF2\uFEEB \uFE8E\uFEE3"
 --- !u!114 &7712253434343065030
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3750,6 +3754,12 @@ MonoBehaviour:
       - fieldName: Answers 4
         node: {fileID: 6152290230982269655}
         reroutePoints: []
+      - fieldName: Answers 5
+        node: {fileID: 6152290230982269655}
+        reroutePoints: []
+      - fieldName: Answers 6
+        node: {fileID: 6152290230982269655}
+        reroutePoints: []
       _direction: 0
       _connectionType: 0
       _typeConstraint: 0
@@ -3766,7 +3776,7 @@ MonoBehaviour:
       _connectionType: 0
       _typeConstraint: 0
       _dynamic: 0
-  speakerName: NPC_0
+  speakerName: 0
   dialogueLine: "\uFE94\uFEDF\uFEED\uFE8E\uFEA4\uFEE4\uFEDF\uFE8D \uFEAA\uFECB\uFE8D
     \uFE94\uFE8C\uFEC3\uFE8E\uFEA7 \uFE94\uFE91\uFE8E\uFE9F\uFE8D"
 --- !u!114 &7724130285693910368
@@ -3898,7 +3908,7 @@ MonoBehaviour:
   - "\uFE95\uFE8D\uFEAE\uFEB8\uFEA3 \uFE95\uFE8D\uFEAA\uFEF4\uFE92\uFEE3"
   - "\uFEA1\uFEFC\uFED3"
   - "\uFEA2\uFEE0\uFEE3"
-  speakerName: 'NPC_0 '
+  speakerName: 0
   DialogueText: "\u061F\uFEEE\uFEE4\uFEE8\uFEE0\uFEDF \uFE93\uFEAE\uFEA0\uFEB8\uFEDF\uFE8D
     \uFEEA\uFE9F\uFE8E\uFE98\uFEA4\uFEF3 \uFEF1\uFEAC\uFEDF\uFE8D \uFEF2\uFEB4\uFEF4\uFE8B\uFEAE\uFEDF\uFE8D
     \uFEAE\uFEBC\uFEE8\uFECC\uFEDF\uFE8D \uFEEE\uFEEB \uFE8E\uFEE3"
@@ -3945,7 +3955,7 @@ MonoBehaviour:
       _connectionType: 0
       _typeConstraint: 0
       _dynamic: 0
-  speakerName: NPC_0
+  speakerName: 0
   dialogueLine: ".\uFE94\uFEA4\uFEF4\uFEA4\uFEBC\uFEDF\uFE8D \uFE94\uFE91\uFE8E\uFE9F\uFEF9\uFE8D
     \uFEF2\uFEEB \uFEE5\uFEED\uFEAF\uFE8E\uFEE3\uFEF7\uFE8D \uFE94\uFE91\uFE8E\uFECF
     !\uFEA2\uFEF4\uFEA4\uFEBB \u060C\uFEE2\uFECC\uFEE7 "
@@ -4036,7 +4046,7 @@ MonoBehaviour:
   - "\uFEE5\uFEEE\uFE98\uFEF3\uFEB0\uFEDF\uFE8D"
   - "\uFEA1\uFE8E\uFED4\uFE98\uFEDF\uFE8D"
   - "\uFEA6\uFEF4\uFEC4\uFE92\uFEDF\uFE8D"
-  speakerName: 'NPC_0 '
+  speakerName: 0
   DialogueText: "\u061F\uFE96\uFEF3\uFEAF \uFE9D\uFE8E\uFE98\uFEE7\uFE87 \uFEF2\uFED3
     \uFEE1\uFEAA\uFEA8\uFE98\uFEB3\u064F\uFE97\uFEED \uFEAD\uFE8E\uFEA0\uFEB7\uFEF7\uFE8D
     \uFEF0\uFEE0\uFECB \uFEEE\uFEE4\uFEE8\uFE97 \uFEF2\uFE98\uFEDF\uFE8D \uFE94\uFEEC\uFEDB\uFE8E\uFED4\uFEDF\uFE8D
@@ -4084,7 +4094,7 @@ MonoBehaviour:
       _connectionType: 0
       _typeConstraint: 0
       _dynamic: 0
-  speakerName: NPC_0
+  speakerName: 0
   dialogueLine: "\r.\uFEF2\uFE8C\uFEF4\uFE92\uFEDF\uFE8D \uFEE5\uFEAF\uFE8D\uFEEE\uFE98\uFEDF\uFE8D
     \uFEB0\uFEF3\uFEB0\uFECC\uFE97\uFEED \uFE94\uFE8C\uFEF4\uFE92\uFEDF\uFE8D \uFEF0\uFEE0\uFECB
     \uFEC5\uFE8E\uFED4\uFEA4\uFEDF\uFE8D \uFEF2\uFED3 \uFE94\uFEE4\uFEEB\uFE8E\uFEB4\uFEE4\uFEE0\uFEDF
@@ -4164,7 +4174,7 @@ MonoBehaviour:
   Answers:
   - "\uFEF2\uFEE7\uFEEE\uFEE0\uFEDF\uFE8D \uFEDD\uFEEE\uFEA4\uFE98\uFEDF"
   - "\uFEF2\uFED4\uFEF4\uFEBB\uFEDF\uFE8D \uFEDD\uFEEE\uFEA4\uFE98\uFEDF"
-  speakerName: 'NPC_0 '
+  speakerName: 0
   DialogueText: "\u061F\uFED2\uFEF3\uFEAE\uFEA8\uFEDF\uFE8D \uFEDE\uFEBC\uFED3 \uFEF2\uFED3
     \uFE95\uFE8E\uFE97\uFE8E\uFE92\uFEE8\uFEDF\uFE8D\uFEED \uFEAD\uFE8E\uFEA0\uFEB7\uFEF8\uFEDF
     \uFEF2\uFECC\uFEF4\uFE92\uFEC4\uFEDF\uFE8D \uFEDD\uFEEE\uFEA4\uFE98\uFEDF\uFE8D

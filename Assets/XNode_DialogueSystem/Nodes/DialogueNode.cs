@@ -9,11 +9,11 @@ public class DialogueNode : BaseNode {
 	[Input] public Connection input;
 	[Output] public Connection exit;
 
-	public string speakerName;
+	public SpeakerName speakerName;
 	[TextArea] public string dialogueLine;
 	//public Sprite sprite;
 	public override string GetString(){ //overriding allows you to create a broad type of object that you can refer to but then get specific data from sub objects  
-		return "DialogueNode/" + speakerName + "/" + dialogueLine; 
+		return "DialogueNode/" + GetSpeakerName(speakerName) + "/" + dialogueLine; 
 	}
 	public override object GetValue(NodePort port){
 		return null;
@@ -23,4 +23,21 @@ public class DialogueNode : BaseNode {
 		return sprite;
 
 	}  */
+
+	public static string GetSpeakerName(SpeakerName speaker)
+	{
+		switch (speaker)
+		{
+			case SpeakerName.masouad:
+				return "ﺩﻮﻌﺴﻣ";
+            case SpeakerName.mostapha:
+                return "ﻰﻔﻄﺴﻤﻣ";
+        }
+		return "";
+	}
+}
+
+public enum SpeakerName
+{
+    masouad, mostapha
 }

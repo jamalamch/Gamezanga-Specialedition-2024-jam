@@ -7,24 +7,21 @@ using TMPro;
 using System;
 using UnityStandardAssets.Characters.FirstPerson;
 using UnityEngine.Events;
+using System.Linq;
+using System.Reflection;
 
 
 public class NodeParser : MonoBehaviour
 {
+    public PanelDialog panelDialog;
 
     public DialogueGraph[] graph; 
-    public TextMeshProUGUI speaker;
-    public TextMeshProUGUI dialogue; 
+
     public int g;
 
-    public GameObject DialogueBox;
-    public GameObject buttonPrefab;
-    public GameObject ButtonContainer;
     public GameObject Player;
 
-    public Transform buttonParent;
     private string answer;
-
 
     private ChoiceDialogueNode activeSegment;
     Coroutine _parser;
@@ -51,7 +48,7 @@ public class NodeParser : MonoBehaviour
     }
     
     public void AnswerClicked(int clickedIndex){ //Function when the choices button is pressed 
-        ButtonContainer.SetActive(false);
+        panelDialog.ButtonContainerActive(false);
         BaseNode b = graph[g].current; 
         var port = activeSegment.GetPort("Answers " + clickedIndex);
         
@@ -62,7 +59,7 @@ public class NodeParser : MonoBehaviour
         else{
             Player.GetComponent<InteractionInstigator>().enabled = true;
             Player.GetComponent<RigidbodyFirstPersonController>().enabled = true;
-            DialogueBox.SetActive(false);
+            panelDialog.Close();
             NextNode("input"); 
             Debug.LogError("ERROR: ChoiceDialogue port is not connected");
             //NextNode("exit"); 
@@ -72,19 +69,14 @@ public class NodeParser : MonoBehaviour
     
     private void UpdateDialogue(ChoiceDialogueNode newSegment){
         activeSegment = newSegment;
-        dialogue.text = newSegment.DialogueText;
-        speaker.text = newSegment.speakerName;
+        panelDialog.SetDialog(newSegment.speakerName, newSegment.DialogueText);
         int answerIndex = 0;
-        foreach (Transform child in buttonParent){
-            Destroy(child.gameObject);
-        }
+
+        panelDialog.CleareButons();
 
         foreach (var answer in newSegment.Answers){
-            var btn = Instantiate(buttonPrefab, buttonParent); //spawns the buttons 
-            btn.GetComponentInChildren<TextMeshProUGUI>().text = answer;
-
             var index = answerIndex;
-            btn.GetComponentInChildren<Button>().onClick.AddListener((() => { AnswerClicked(index);}));
+            panelDialog.AddAnswer(answer, () =>  AnswerClicked(index));
             answerIndex++;
         }
     }
@@ -94,86 +86,51 @@ public class NodeParser : MonoBehaviour
         string data = b.GetString(); 
         string[] dataParts = data.Split('/'); //array of strings 
 
-        speaker.text =""; //Resets the text 
-        dialogue.text = "";
-    
-        foreach (Transform child in buttonParent){ //Destroys the buttons when going to the next node 
-            Destroy(child.gameObject);
-        }
+
+        panelDialog.ClearDialog();
+        panelDialog.CleareButons();
+
 
         if (dataParts[0] == "Start"){
             Cursor.visible = true;
             Cursor.lockState = CursorLockMode.None;
-            speaker.text ="";
-            dialogue.text = "";
-            foreach (Transform child in buttonParent){
-                Destroy(child.gameObject);
-            }
+            panelDialog.ClearDialog();
+            panelDialog.CleareButons();
         }
 
         if (dataParts[0] == "ChoiceDialogueNode"){
             Cursor.visible = true;
             Cursor.lockState = CursorLockMode.None;
-            ButtonContainer.SetActive(true);
-            speaker.text = dataParts[1];
-            dialogue.text = dataParts[2];
+            panelDialog.ButtonContainerActive(true);
 
-            UpdateDialogue(b as ChoiceDialogueNode); //Instantiates the buttons 
-
-            if(speaker.text == ""){
-                Debug.LogError("ERROR: Speaker text for ChoiceDialogueNode is empty");
-            }
-            if(dialogue.text == ""){
-                Debug.LogError("ERROR: Dialogue text for ChoiceDialogueNode is empty");
-            }
-         
+            UpdateDialogue(b as ChoiceDialogueNode); //Instantiates the buttons          
         }
         if (dataParts[0] == "DialogueNode"){
             Cursor.visible = true;
             Cursor.lockState = CursorLockMode.None;
-            speaker.text = dataParts[1];
-            dialogue.text = dataParts[2];
 
-            if(speaker.text == ""){
-                Debug.LogError("ERROR: Speaker text for DialogueNode is empty");
-            }
-            if(dialogue.text == ""){
-                Debug.LogError("ERROR: Dialogue text for DialogueNode is empty");
-            }
-            
-            yield return new WaitUntil(() => (DialogueBox.activeSelf)); 
+            panelDialog.SetDialog(dataParts[1], dataParts[2]);
+
+            yield return new WaitUntil(() => (panelDialog.isOpen)); 
             yield return new WaitUntil(() => Input.GetMouseButtonDown(0)); //waits for left mouse click input then goes to next node
             yield return new WaitUntil(() => Input.GetMouseButtonUp(0));
             NextNode("exit");
-
-           
-          
-
-            
-          
-
         }
         if (dataParts[0] == "CloseDialogue_ExitNode"){
             Player.GetComponent<InteractionInstigator>().enabled = true;
             Player.GetComponent<RigidbodyFirstPersonController>().enabled = true;
-            DialogueBox.SetActive(false);
+            panelDialog.Close();
             graph[g].Start(); //loops back to the start node
-            speaker.text ="";
-            dialogue.text = "";
-            foreach (Transform child in buttonParent){
-                Destroy(child.gameObject);
-            }
+            panelDialog.ClearDialog();
+            panelDialog.CleareButons();
         }
 
         if (dataParts[0] == "CloseDialogue_ExitNode_NoLoop_toStart"){ //the name is self explanatory 
             Player.GetComponent<InteractionInstigator>().enabled = true;
             Player.GetComponent<RigidbodyFirstPersonController>().enabled = true;
-            DialogueBox.SetActive(false);
-            speaker.text ="";
-            dialogue.text = "";
-            foreach (Transform child in buttonParent){
-                Destroy(child.gameObject);
-            }
+            panelDialog.Close();
+            panelDialog.ClearDialog();
+            panelDialog.CleareButons();
         }
 
         if (dataParts[0] == "CustomNode"){ //rename here
@@ -181,17 +138,14 @@ public class NodeParser : MonoBehaviour
 
             Cursor.visible = true;
             Cursor.lockState = CursorLockMode.None;
-            DialogueBox.SetActive(true);
+            panelDialog.Open();
             NextNode("exit");
         }
     }
 
     public void NextNode(string fieldName){
-        speaker.text ="";
-        dialogue.text = "";
-        foreach (Transform child in buttonParent){
-            Destroy(child.gameObject);
-        }
+        panelDialog.ClearDialog();
+        panelDialog.CleareButons();
         if (_parser != null){
             StopCoroutine(_parser); 
             _parser = null;
@@ -216,8 +170,4 @@ public class NodeParser : MonoBehaviour
         _parser = StartCoroutine(ParseNode());
         
     }
-
-
-
-
 }
