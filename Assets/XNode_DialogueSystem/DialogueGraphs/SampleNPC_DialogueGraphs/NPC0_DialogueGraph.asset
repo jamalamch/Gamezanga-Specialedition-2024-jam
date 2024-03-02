@@ -98,7 +98,7 @@ MonoBehaviour:
         PublicKeyToken=b77a5c561934e089
       connections:
       - fieldName: input
-        node: {fileID: -3928967332969441245}
+        node: {fileID: 7492586731453450549}
         reroutePoints: []
       _direction: 1
       _connectionType: 0
@@ -110,19 +110,20 @@ MonoBehaviour:
         PublicKeyToken=b77a5c561934e089
       connections:
       - fieldName: input
-        node: {fileID: 7492586731453450549}
+        node: {fileID: -3928967332969441245}
         reroutePoints: []
       _direction: 1
       _connectionType: 0
       _typeConstraint: 0
       _dynamic: 1
   Answers:
-  - "\uFE80\uFE8D\uFEEE\uFEEC\uFEDF\uFE8D \uFE93\uFEA9\uFEEE\uFE9F \uFEE6\uFEF4\uFEB4\uFEA4\uFE97 "
   - "\uFEAE\uFEF4\uFEB4\uFEDF\uFE8D \uFE95\uFEA9\uFE8D\uFEEE\uFEA3 \uFEDE\uFEF4\uFEE0\uFED8\uFE97"
+  - "\uFE80\uFE8D\uFEEE\uFEEC\uFEDF\uFE8D \uFE93\uFEA9\uFEEE\uFE9F \uFEE6\uFEF4\uFEB4\uFEA4\uFE97 "
   speakerName: 0
   DialogueText: "\u061F\uFE93\uFEAE\uFEC0\uFEA4\uFEDF\uFE8D \uFEF2\uFED3 \uFEAD\uFE8E\uFEA0\uFEB7\uFEF7\uFE8D
     \uFE94\uFECB\uFE8D\uFEAD\uFEAF \uFEAA\uFE8B\uFE8D\uFEEE\uFED3 \uFEAA\uFEA3\uFE83
     \uFEF2\uFEEB \uFE8E\uFEE3"
+  answersIndex: 1
 --- !u!114 &-7667279603776814375
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -173,7 +174,7 @@ MonoBehaviour:
         PublicKeyToken=b77a5c561934e089
       connections:
       - fieldName: input
-        node: {fileID: 6239448427506528383}
+        node: {fileID: -3433262394346056187}
         reroutePoints: []
       _direction: 1
       _connectionType: 0
@@ -197,21 +198,22 @@ MonoBehaviour:
         PublicKeyToken=b77a5c561934e089
       connections:
       - fieldName: input
-        node: {fileID: -3433262394346056187}
+        node: {fileID: 6239448427506528383}
         reroutePoints: []
       _direction: 1
       _connectionType: 0
       _typeConstraint: 0
       _dynamic: 1
   Answers:
-  - "\uFEF2\uFE8B\uFEEE\uFEC0\uFEDF\uFE8D \uFEDE\uFEF4\uFE9C\uFEE4\uFE98\uFEDF\uFE8D"
   - "\uFEF2\uFE97\uFEEE\uFEBC\uFEDF\uFE8D \uFEDE\uFEF4\uFE9C\uFEE4\uFE98\uFEDF\uFE8D"
   - "\uFEAE\uFEC0\uFEA7\uFEFB\uFE8D \uFEDE\uFEF4\uFE9C\uFEE4\uFE98\uFEDF\uFE8D"
+  - "\uFEF2\uFE8B\uFEEE\uFEC0\uFEDF\uFE8D \uFEDE\uFEF4\uFE9C\uFEE4\uFE98\uFEDF\uFE8D"
   speakerName: 0
   DialogueText: "\u061F\uFEAD\uFE8E\uFEA0\uFEB7\uFEF7\uFE8D \uFEF2\uFED3 \uFE94\uFED7\uFE8E\uFEC3
     \uFEF0\uFEDF\uFE87 \uFE80\uFEEE\uFEC0\uFEDF\uFE8D \uFEDD\uFEEE\uFEA4\uFE97 \uFEF2\uFE98\uFEDF\uFE8D
     \uFE94\uFEF4\uFEE0\uFEE4\uFECC\uFEDF\uFE8D \uFED2\uFEBC\uFEF3 \uFEA2\uFEE0\uFEC4\uFEBC\uFEE3
     \uFEEE\uFEEB \uFE8E\uFEE3 "
+  answersIndex: 2
 --- !u!114 &-7419114676719046680
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -236,7 +238,7 @@ MonoBehaviour:
       _typeQualifiedName: Connection, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
         PublicKeyToken=null
       connections:
-      - fieldName: Answers 0
+      - fieldName: Answers 1
         node: {fileID: 2523389195320420614}
         reroutePoints: []
       _direction: 0
@@ -430,6 +432,7 @@ MonoBehaviour:
     \uFEF2\uFED3 \uFECA\uFED8\uFE97 \uFEF2\uFE98\uFEDF\uFE8D \uFE93\uFEAE\uFEF4\uFEEC\uFEB8\uFEDF\uFE8D
     \uFE93\uFEAE\uFEF4\uFEC4\uFEE4\uFEDF\uFE8D \uFE94\uFE91\uFE8E\uFED0\uFEDF\uFE8D
     \uFEEE\uFEEB \uFE8E\uFEE3 "
+  answersIndex: 0
 --- !u!114 &-5309799326902854228
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -505,6 +508,7 @@ MonoBehaviour:
     \uFEE6\uFEF4\uFEB4\uFEA4\uFE98\uFEDF \uFE93\uFEAE\uFEA0\uFEB8\uFEDF\uFE8D \uFEC9\uFEED\uFEAE\uFED3
     \uFEE2\uFEF4\uFEE0\uFED8\uFE97 \uFEF0\uFEDF\uFE87 \uFEAE\uFEF4\uFEB8\uFEF3 \uFEF1\uFEAC\uFEDF\uFE8D
     \uFEA2\uFEE0\uFEC4\uFEBC\uFEE4\uFEDF\uFE8D \uFEEE\uFEEB \uFE8E\uFEE3"
+  answersIndex: 0
 --- !u!114 &-5295879661426054465
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -732,6 +736,7 @@ MonoBehaviour:
     \uFE94\uFEF4\uFEE0\uFEE4\uFECB \uFEDD\uFEFC\uFEA7 \uFEAD\uFE8E\uFEA0\uFEB7\uFEF7\uFE8D
     \uFEEA\uFEBC\uFE98\uFEE4\uFEF3 \uFEF1\uFEAC\uFEDF\uFE8D \uFEAF\uFE8E\uFED0\uFEDF\uFE8D
     \uFEEE\uFEEB \uFE8E\uFEE3"
+  answersIndex: 1
 --- !u!114 &-4516675334176684882
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -851,7 +856,7 @@ MonoBehaviour:
       _typeQualifiedName: Connection, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
         PublicKeyToken=null
       connections:
-      - fieldName: Answers 0
+      - fieldName: Answers 1
         node: {fileID: -7962440040356805353}
         reroutePoints: []
       _direction: 0
@@ -997,6 +1002,7 @@ MonoBehaviour:
     \uFEAD\uFE8E\uFEC4\uFEE3\uFEF7\uFE8D \uFEA9\uFEEE\uFE9F\uFEED \uFEE1\uFEAA\uFECB
     \uFE94\uFEDF\uFE8E\uFEA3 \uFED2\uFEBC\uFEF3 \uFEF1\uFEAC\uFEDF\uFE8D \uFEA2\uFEE0\uFEC4\uFEBC\uFEE4\uFEDF\uFE8D
     \uFEEE\uFEEB \uFE8E\uFEE3"
+  answersIndex: 0
 --- !u!114 &-3433262394346056187
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1021,10 +1027,10 @@ MonoBehaviour:
       _typeQualifiedName: Connection, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
         PublicKeyToken=null
       connections:
-      - fieldName: Answers 1
+      - fieldName: Answers 0
         node: {fileID: -7667279603776814375}
         reroutePoints: []
-      - fieldName: Answers 2
+      - fieldName: Answers 1
         node: {fileID: -7667279603776814375}
         reroutePoints: []
       _direction: 0
@@ -1170,6 +1176,7 @@ MonoBehaviour:
     \uFE94\uFEF4\uFE91\uFEAE\uFECC\uFEDF\uFE8D \uFE94\uFEDC\uFEE0\uFEE4\uFEE4\uFEDF\uFE8D
     \uFE8E\uFEEC\uFE91 \uFEAE\uFEEC\uFE98\uFEB8\uFE97 \uFEF2\uFE98\uFEDF\uFE8D \uFE93\uFEAE\uFEA0\uFEB8\uFEDF\uFE8D
     \uFE8E\uFEE3"
+  answersIndex: 2
 --- !u!114 &-2711016231382368613
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1299,6 +1306,7 @@ MonoBehaviour:
     \uFEE2\uFEDF\uFE8E\uFECC\uFEDF\uFE8D \uFEF2\uFED3 \uFE93\uFEAE\uFEA0\uFEB7 \uFEAE\uFE92\uFEDB\uFE83
     \uFE8E\uFEEC\uFEE7\uFE84\uFE91 \uFE94\uFED3\uFEED\uFEAE\uFECC\uFEE4\uFEDF\uFE8D
     \uFE93\uFEAE\uFEA0\uFEB8\uFEDF\uFE8D \uFEF2\uFEEB \uFE8E\uFEE3 "
+  answersIndex: 1
 --- !u!114 &-1556625902907755114
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1430,6 +1438,7 @@ MonoBehaviour:
     \uFE95\uFE8E\uFEF3\uFEFB\uFEEE\uFEE0\uFEDF \uFEF2\uFEE8\uFEC3\uFEED \uFEB0\uFEE3\uFEAD
     \uFE8E\uFEEC\uFEE7\uFE84\uFE91 \uFE94\uFED3\uFEED\uFEAE\uFECC\uFEE4\uFEDF\uFE8D
     \uFE93\uFEAE\uFEA0\uFEB8\uFEDF\uFE8D "
+  answersIndex: 1
 --- !u!114 &-1451559164101710181
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1454,7 +1463,7 @@ MonoBehaviour:
       _typeQualifiedName: Connection, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
         PublicKeyToken=null
       connections:
-      - fieldName: Answers 0
+      - fieldName: Answers 1
         node: {fileID: 6774192281935313308}
         reroutePoints: []
       _direction: 0
@@ -1502,7 +1511,7 @@ MonoBehaviour:
       _typeQualifiedName: Connection, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
         PublicKeyToken=null
       connections:
-      - fieldName: Answers 1
+      - fieldName: Answers 0
         node: {fileID: 2523389195320420614}
         reroutePoints: []
       _direction: 0
@@ -1605,7 +1614,7 @@ MonoBehaviour:
       _typeQualifiedName: Connection, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
         PublicKeyToken=null
       connections:
-      - fieldName: Answers 1
+      - fieldName: Answers 0
         node: {fileID: 6774192281935313308}
         reroutePoints: []
       _direction: 0
@@ -1807,7 +1816,7 @@ MonoBehaviour:
   - {fileID: 1313036179774152676}
   - {fileID: 6352211252447087626}
   start: {fileID: 5398391079699420998}
-  current: {fileID: 7548786468859092389}
+  current: {fileID: 7724130285693910368}
   initNode: {fileID: 5398391079699420998}
 --- !u!114 &108078708666390029
 MonoBehaviour:
@@ -1897,6 +1906,7 @@ MonoBehaviour:
   DialogueText: "\uFEAD\uFE8E\uFEA0\uFEB7\uFEF7\uFE8D \uFE94\uFECB\uFE8D\uFEAD\uFEAF
     \uFEE6\uFEE4\uFEC0\uFE98\uFEF3 \uFEF1\uFEAC\uFEDF\uFE8D \uFEC1\uFE8E\uFEB8\uFEE8\uFEDF\uFE8D
     \uFEEE\uFEEB \uFE8E\uFEE3"
+  answersIndex: 2
 --- !u!114 &212553672656511605
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1997,7 +2007,7 @@ MonoBehaviour:
         PublicKeyToken=b77a5c561934e089
       connections:
       - fieldName: input
-        node: {fileID: 7127905979555231234}
+        node: {fileID: 6174658782475117939}
         reroutePoints: []
       _direction: 1
       _connectionType: 0
@@ -2009,7 +2019,7 @@ MonoBehaviour:
         PublicKeyToken=b77a5c561934e089
       connections:
       - fieldName: input
-        node: {fileID: 6174658782475117939}
+        node: {fileID: 7127905979555231234}
         reroutePoints: []
       _direction: 1
       _connectionType: 0
@@ -2028,15 +2038,16 @@ MonoBehaviour:
       _typeConstraint: 0
       _dynamic: 1
   Answers:
+  - "\uFE8E\uFEEC\uFEE0\uFEBF\uFE91 \uFE94\uFE91\uFEAE\uFE98\uFEDF\uFE8D \uFE96\uFEF4\uFE92\uFE9C\uFE97"
   - "\uFE8E\uFEEB\uFEAD\uFEED\uFEAC\uFEA0\uFE91 \uFE94\uFE91\uFEAE\uFE98\uFEDF\uFE8D
     \uFE96\uFEF4\uFE92\uFE9C\uFE97"
-  - "\uFE8E\uFEEC\uFEE0\uFEBF\uFE91 \uFE94\uFE91\uFEAE\uFE98\uFEDF\uFE8D \uFE96\uFEF4\uFE92\uFE9C\uFE97"
   - "\uFE8E\uFEEC\uFED7\uFE8D\uFEAD\uFEED\uFE8E\uFE91 \uFE94\uFE91\uFEAE\uFE98\uFEDF\uFE8D
     \uFE96\uFEF4\uFE92\uFE9C\uFE97"
   speakerName: 0
   DialogueText: "\u061F\uFEF2\uFEBF\uFEAD\uFEF7\uFE8D \uFEDE\uFEDB\uFE82\uFE98\uFEDF\uFE8D
     \uFEE6\uFEE3 \uFEAA\uFEA4\uFEDF\uFE8D \uFEF2\uFED3 \uFEAA\uFECB\uFE8E\uFEB4\uFE97
     \uFEE5\uFE83 \uFEAD\uFE8E\uFEA0\uFEB7\uFEF8\uFEDF \uFEE6\uFEDC\uFEE4\uFEF3 \uFED2\uFEF4\uFEDB"
+  answersIndex: 1
 --- !u!114 &1313036179774152676
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2307,7 +2318,7 @@ MonoBehaviour:
         PublicKeyToken=b77a5c561934e089
       connections:
       - fieldName: input
-        node: {fileID: -7419114676719046680}
+        node: {fileID: -1390005085024108431}
         reroutePoints: []
       _direction: 1
       _connectionType: 0
@@ -2319,21 +2330,22 @@ MonoBehaviour:
         PublicKeyToken=b77a5c561934e089
       connections:
       - fieldName: input
-        node: {fileID: -1390005085024108431}
+        node: {fileID: -7419114676719046680}
         reroutePoints: []
       _direction: 1
       _connectionType: 0
       _typeConstraint: 0
       _dynamic: 1
   Answers:
-  - "\uFEAE\uFEA4\uFEBC\uFE98\uFEDF\uFE8D"
   - "\uFEE2\uFEA8\uFEC0\uFE98\uFEDF\uFE8D"
+  - "\uFEAE\uFEA4\uFEBC\uFE98\uFEDF\uFE8D"
   speakerName: 0
   DialogueText: "\u061F\uFE94\uFEE3\uFE8D\uFEAA\uFE98\uFEB4\uFEE3 \uFEAE\uFEF4\uFECF
     \uFE94\uFED8\uFEF3\uFEAE\uFEC4\uFE91 \uFE95\uFE8E\uFE91\uFE8E\uFED0\uFEDF\uFE8D
     \uFEE6\uFEE3 \uFEAD\uFE8E\uFEA0\uFEB7\uFEF7\uFE8D \uFE94\uFEDF\uFE8D\uFEAF\uFE87
     \uFE94\uFEF4\uFEE0\uFEE4\uFECB \uFED2\uFEBC\uFEF3 \uFEF1\uFEAC\uFEDF\uFE8D \uFEA2\uFEE0\uFEC4\uFEBC\uFEE4\uFEDF\uFE8D
     \uFEEE\uFEEB \uFE8E\uFEE3"
+  answersIndex: 1
 --- !u!114 &2686773444861052955
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2405,7 +2417,7 @@ MonoBehaviour:
       _typeQualifiedName: Connection, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
         PublicKeyToken=null
       connections:
-      - fieldName: Answers 0
+      - fieldName: Answers 1
         node: {fileID: 6539994730965677335}
         reroutePoints: []
       _direction: 0
@@ -2452,7 +2464,7 @@ MonoBehaviour:
       _typeQualifiedName: Connection, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
         PublicKeyToken=null
       connections:
-      - fieldName: Answers 0
+      - fieldName: Answers 1
         node: {fileID: 8915758072663840052}
         reroutePoints: []
       _direction: 0
@@ -2651,10 +2663,10 @@ MonoBehaviour:
       _typeQualifiedName: Connection, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
         PublicKeyToken=null
       connections:
-      - fieldName: Answers 1
+      - fieldName: Answers 2
         node: {fileID: 6539994730965677335}
         reroutePoints: []
-      - fieldName: Answers 2
+      - fieldName: Answers 0
         node: {fileID: 6539994730965677335}
         reroutePoints: []
       _direction: 0
@@ -2787,7 +2799,7 @@ MonoBehaviour:
         PublicKeyToken=b77a5c561934e089
       connections:
       - fieldName: input
-        node: {fileID: 6989207260267460488}
+        node: {fileID: 7712253434343065030}
         reroutePoints: []
       _direction: 1
       _connectionType: 0
@@ -2811,7 +2823,7 @@ MonoBehaviour:
         PublicKeyToken=b77a5c561934e089
       connections:
       - fieldName: input
-        node: {fileID: 7712253434343065030}
+        node: {fileID: 6989207260267460488}
         reroutePoints: []
       _direction: 1
       _connectionType: 0
@@ -2844,9 +2856,9 @@ MonoBehaviour:
   Answers:
   - "\uFEA2\uFEE0\uFEE4\uFEDF\uFE8D"
   - "\uFE94\uFEC0\uFED4\uFEDF\uFE8D"
-  - "\uFEE6\uFEF4\uFE9F\uFEED\uFEAE\uFE98\uFEF4\uFEE8\uFEDF\uFE8D"
   - "\uFEE6\uFEF4\uFEA0\uFEF4\uFEB4\uFEDB\uFEFB\uFE8D"
   - "\uFE95\uFE8D\uFEAA\uFEF4\uFE92\uFEE4\uFEDF\uFE8D"
+  - "\uFEE6\uFEF4\uFE9F\uFEED\uFEAE\uFE98\uFEF4\uFEE8\uFEDF\uFE8D"
   - "\uFEDD\uFE8D\uFEED\uFEB0\uFEDC\uFEDF\uFE8D"
   - "\uFEDA\uFEF4\uFE98\uFEB3\uFEFC\uFE92\uFEDF\uFE8D"
   speakerName: 0
@@ -2854,6 +2866,7 @@ MonoBehaviour:
     \uFEAF\uFEB0\uFECC\uFEF3\uFEED \uFE94\uFE91\uFEAE\uFE98\uFEDF\uFE8D \uFEF2\uFED3
     \uFE8D\u064B\uFEF4\uFEB3\uFE8E\uFEB3\uFE83 \uFE8D\u064B\uFE80\uFEB0\uFE9F \uFEE5\uFEEE\uFEDC\uFEF3
     \uFEF1\uFEAC\uFEDF\uFE8D \uFEAE\uFEBC\uFEE8\uFECC\uFEDF\uFE8D \uFEEE\uFEEB \uFE8E\uFEE3 "
+  answersIndex: 4
 --- !u!114 &6174658782475117939
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2878,10 +2891,10 @@ MonoBehaviour:
       _typeQualifiedName: Connection, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
         PublicKeyToken=null
       connections:
-      - fieldName: Answers 1
+      - fieldName: Answers 2
         node: {fileID: 736045348788579514}
         reroutePoints: []
-      - fieldName: Answers 2
+      - fieldName: Answers 0
         node: {fileID: 736045348788579514}
         reroutePoints: []
       _direction: 0
@@ -2928,7 +2941,7 @@ MonoBehaviour:
       _typeQualifiedName: Connection, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
         PublicKeyToken=null
       connections:
-      - fieldName: Answers 0
+      - fieldName: Answers 2
         node: {fileID: -7667279603776814375}
         reroutePoints: []
       _direction: 0
@@ -2975,7 +2988,7 @@ MonoBehaviour:
       _typeQualifiedName: Connection, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
         PublicKeyToken=null
       connections:
-      - fieldName: Answers 1
+      - fieldName: Answers 0
         node: {fileID: 8915758072663840052}
         reroutePoints: []
       _direction: 0
@@ -3154,7 +3167,7 @@ MonoBehaviour:
         PublicKeyToken=b77a5c561934e089
       connections:
       - fieldName: input
-        node: {fileID: 2936210951489787336}
+        node: {fileID: 4977067204710479267}
         reroutePoints: []
       _direction: 1
       _connectionType: 0
@@ -3166,7 +3179,7 @@ MonoBehaviour:
         PublicKeyToken=b77a5c561934e089
       connections:
       - fieldName: input
-        node: {fileID: 4977067204710479267}
+        node: {fileID: 2936210951489787336}
         reroutePoints: []
       _direction: 1
       _connectionType: 0
@@ -3185,14 +3198,15 @@ MonoBehaviour:
       _typeConstraint: 0
       _dynamic: 1
   Answers:
-  - "\uFE8D\u064B\uFEE3\uFE8E\uFECB 20 \uFEF0\uFEDF\uFE87 10 \uFEE6\uFEF4\uFE91 \uFEA1\uFEED\uFE8D\uFEAE\uFE98\uFE97 "
   - "\uFEAE\uFEEC\uFEB7 5 \uFEF0\uFEDF\uFE87 1 \uFEE6\uFEF4\uFE91 \uFEA1\uFEED\uFE8D\uFEAE\uFE98\uFE97 "
+  - "\uFE8D\u064B\uFEE3\uFE8E\uFECB 20 \uFEF0\uFEDF\uFE87 10 \uFEE6\uFEF4\uFE91 \uFEA1\uFEED\uFE8D\uFEAE\uFE98\uFE97 "
   - "\uFEE1\uFEEE\uFEF3 20 \uFEF0\uFEDF\uFE87 6 \uFEE6\uFEF4\uFE91 \uFEA1\uFEED\uFE8D\uFEAE\uFE98\uFE97 "
   speakerName: 0
   DialogueText: "\u061F\uFEDE\uFEE3\uFE8E\uFEDB \uFEDE\uFEDC\uFEB8\uFE91 \uFEAD\uFEEE\uFEC4\uFE98\uFEDF\uFE8D\uFEED
     \uFEEE\uFEE4\uFEE8\uFEE0\uFEDF \uFE93\uFEAE\uFEA0\uFEB7 \uFE8E\uFEEC\uFE9F\uFE8E\uFE98\uFEA4\uFE97
     \uFEAA\uFED7 \uFEF2\uFE98\uFEDF\uFE8D \uFE94\uFEF4\uFEE8\uFEE3\uFEB0\uFEDF\uFE8D
     \uFE93\uFEAE\uFE98\uFED4\uFEDF\uFE8D \uFEF2\uFEEB \uFE8E\uFEE3"
+  answersIndex: 1
 --- !u!114 &6556135727884242578
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3270,6 +3284,7 @@ MonoBehaviour:
   DialogueText: "\u061F\uFEE1\uFEFC\uFED7\uFEF7\uFE8D \uFECA\uFEE8\uFEBB \uFEF2\uFED3
     \uFE8E\uFEEC\uFE92\uFEB8\uFEA7 \uFEE1\uFEAA\uFEA8\uFE98\uFEB3\u064F\uFEF3 \uFEF2\uFE98\uFEDF\uFE8D
     \uFE93\uFEAE\uFEA0\uFEB8\uFEDF\uFE8D \uFEF2\uFEEB \uFE8E\uFEE3"
+  answersIndex: 1
 --- !u!114 &6774192281935313308
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3319,7 +3334,7 @@ MonoBehaviour:
         PublicKeyToken=b77a5c561934e089
       connections:
       - fieldName: input
-        node: {fileID: -1451559164101710181}
+        node: {fileID: -1021306209205545758}
         reroutePoints: []
       _direction: 1
       _connectionType: 0
@@ -3331,20 +3346,21 @@ MonoBehaviour:
         PublicKeyToken=b77a5c561934e089
       connections:
       - fieldName: input
-        node: {fileID: -1021306209205545758}
+        node: {fileID: -1451559164101710181}
         reroutePoints: []
       _direction: 1
       _connectionType: 0
       _typeConstraint: 0
       _dynamic: 1
   Answers:
-  - "\uFEDE\uFEE4\uFECB \uFEB9\uFEAE\uFED3 \uFEAE\uFEF4\uFED3\uFEEE\uFE97 "
   - "\uFE94\uFEF4\uFE8B\uFE8E\uFEE4\uFEDF\uFE8D \uFE94\uFEB7\uFEAE\uFED4\uFEDF\uFE8D
     \uFE94\uFEF3\uFE8E\uFEE4\uFEA3"
+  - "\uFEDE\uFEE4\uFECB \uFEB9\uFEAE\uFED3 \uFEAE\uFEF4\uFED3\uFEEE\uFE97 "
   speakerName: 0
   DialogueText: "\u061F\uFEAD\uFE8E\uFEA0\uFEB7\uFEF7\uFE8D \uFE94\uFECB\uFE8D\uFEAD\uFEAF
     \uFE9E\uFEE3\uFE8D\uFEAE\uFE92\uFEDF \uFE94\uFEF3\uFEA9\uFE8E\uFEBC\uFE98\uFED7\uFEFB\uFE8D
     \uFE93\uFEAA\uFE8B\uFE8E\uFED4\uFEDF\uFE8D \uFEF2\uFEEB \uFE8E\uFEE3 "
+  answersIndex: 0
 --- !u!114 &6921198788579047074
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3416,7 +3432,7 @@ MonoBehaviour:
       _typeQualifiedName: Connection, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
         PublicKeyToken=null
       connections:
-      - fieldName: Answers 2
+      - fieldName: Answers 4
         node: {fileID: 6152290230982269655}
         reroutePoints: []
       _direction: 0
@@ -3496,7 +3512,7 @@ MonoBehaviour:
       _typeQualifiedName: Connection, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
         PublicKeyToken=null
       connections:
-      - fieldName: Answers 0
+      - fieldName: Answers 1
         node: {fileID: 736045348788579514}
         reroutePoints: []
       _direction: 0
@@ -3591,7 +3607,7 @@ MonoBehaviour:
       _typeQualifiedName: Connection, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
         PublicKeyToken=null
       connections:
-      - fieldName: Answers 1
+      - fieldName: Answers 0
         node: {fileID: -7962440040356805353}
         reroutePoints: []
       _direction: 0
@@ -3718,6 +3734,7 @@ MonoBehaviour:
   DialogueText: "\r\r\u061F\uFEAD\uFE8E\uFEA0\uFEB7\uFEF7\uFE8D \uFE94\uFECB\uFE8D\uFEAD\uFEB0\uFEDF
     \uFE94\uFEF4\uFE8C\uFEF4\uFE92\uFEDF\uFE8D \uFEAA\uFE8B\uFE8D\uFEEE\uFED4\uFEDF\uFE8D
     \uFEF2\uFEEB \uFE8E\uFEE3"
+  answersIndex: 0
 --- !u!114 &7712253434343065030
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3748,16 +3765,16 @@ MonoBehaviour:
       - fieldName: Answers 1
         node: {fileID: 6152290230982269655}
         reroutePoints: []
-      - fieldName: Answers 3
-        node: {fileID: 6152290230982269655}
-        reroutePoints: []
-      - fieldName: Answers 4
-        node: {fileID: 6152290230982269655}
-        reroutePoints: []
       - fieldName: Answers 5
         node: {fileID: 6152290230982269655}
         reroutePoints: []
       - fieldName: Answers 6
+        node: {fileID: 6152290230982269655}
+        reroutePoints: []
+      - fieldName: Answers 2
+        node: {fileID: 6152290230982269655}
+        reroutePoints: []
+      - fieldName: Answers 3
         node: {fileID: 6152290230982269655}
         reroutePoints: []
       _direction: 0
@@ -3912,6 +3929,7 @@ MonoBehaviour:
   DialogueText: "\u061F\uFEEE\uFEE4\uFEE8\uFEE0\uFEDF \uFE93\uFEAE\uFEA0\uFEB8\uFEDF\uFE8D
     \uFEEA\uFE9F\uFE8E\uFE98\uFEA4\uFEF3 \uFEF1\uFEAC\uFEDF\uFE8D \uFEF2\uFEB4\uFEF4\uFE8B\uFEAE\uFEDF\uFE8D
     \uFEAE\uFEBC\uFEE8\uFECC\uFEDF\uFE8D \uFEEE\uFEEB \uFE8E\uFEE3"
+  answersIndex: 1
 --- !u!114 &8290717207943826144
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4051,6 +4069,7 @@ MonoBehaviour:
     \uFEE1\uFEAA\uFEA8\uFE98\uFEB3\u064F\uFE97\uFEED \uFEAD\uFE8E\uFEA0\uFEB7\uFEF7\uFE8D
     \uFEF0\uFEE0\uFECB \uFEEE\uFEE4\uFEE8\uFE97 \uFEF2\uFE98\uFEDF\uFE8D \uFE94\uFEEC\uFEDB\uFE8E\uFED4\uFEDF\uFE8D
     \uFEF2\uFEEB \uFE8E\uFEE3"
+  answersIndex: 0
 --- !u!114 &8587260755591064957
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4153,7 +4172,7 @@ MonoBehaviour:
         PublicKeyToken=b77a5c561934e089
       connections:
       - fieldName: input
-        node: {fileID: 3225283489049003151}
+        node: {fileID: 6352211252447087626}
         reroutePoints: []
       _direction: 1
       _connectionType: 0
@@ -4165,17 +4184,18 @@ MonoBehaviour:
         PublicKeyToken=b77a5c561934e089
       connections:
       - fieldName: input
-        node: {fileID: 6352211252447087626}
+        node: {fileID: 3225283489049003151}
         reroutePoints: []
       _direction: 1
       _connectionType: 0
       _typeConstraint: 0
       _dynamic: 1
   Answers:
-  - "\uFEF2\uFEE7\uFEEE\uFEE0\uFEDF\uFE8D \uFEDD\uFEEE\uFEA4\uFE98\uFEDF"
   - "\uFEF2\uFED4\uFEF4\uFEBB\uFEDF\uFE8D \uFEDD\uFEEE\uFEA4\uFE98\uFEDF"
+  - "\uFEF2\uFEE7\uFEEE\uFEE0\uFEDF\uFE8D \uFEDD\uFEEE\uFEA4\uFE98\uFEDF"
   speakerName: 0
   DialogueText: "\u061F\uFED2\uFEF3\uFEAE\uFEA8\uFEDF\uFE8D \uFEDE\uFEBC\uFED3 \uFEF2\uFED3
     \uFE95\uFE8E\uFE97\uFE8E\uFE92\uFEE8\uFEDF\uFE8D\uFEED \uFEAD\uFE8E\uFEA0\uFEB7\uFEF8\uFEDF
     \uFEF2\uFECC\uFEF4\uFE92\uFEC4\uFEDF\uFE8D \uFEDD\uFEEE\uFEA4\uFE98\uFEDF\uFE8D
     \uFED2\uFEBC\uFEF3 \uFEA2\uFEE0\uFEC4\uFEBC\uFEE3 \uFEEE\uFEEB \uFE8E\uFEE3 "
+  answersIndex: 1

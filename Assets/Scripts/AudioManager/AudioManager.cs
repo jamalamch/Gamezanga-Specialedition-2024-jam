@@ -11,6 +11,10 @@ public class AudioManager : MonoBehaviour
 
 	public AudioMixerGroup mixerGroup;
 	public Sound[] sounds;
+	public AudioClip[] steps;
+	public float stepsVolume;
+
+	List<Sound> soundsSteps;
 
 	public bool soundEnabled = true;
 
@@ -38,7 +42,21 @@ public class AudioManager : MonoBehaviour
 		{
             foreach (Sound s in sounds)
 				AddSound(s);
-			
+            soundsSteps = new List<Sound>();
+            foreach (AudioClip clip in steps)
+			{
+                Sound s = new Sound();
+                s.name = clip.name;
+                s.clip = clip;
+				s.volume = stepsVolume;
+				s.pitch = 1;
+                AddSound(s);
+
+				soundsSteps.Add(s);
+
+            }
+
+
             void AddSound(Sound s)
             {
                 if (!listSound.ContainsKey(s.name))
@@ -108,4 +126,23 @@ public class AudioManager : MonoBehaviour
 			Debug.LogWarning("Sound: " + value + " not found!");
 		}
 	}
+
+	float minTime;
+
+	public void PlayStep(float volume)
+	{
+		if (Time.time > minTime)
+		{
+            minTime = Time.time + 0.4f;
+            Sound sound = soundsSteps[Random.Range(0, soundsSteps.Count)];
+			int i = 10;
+			while (sound.source.isPlaying && i-- > 0)
+				sound = soundsSteps[Random.Range(0, soundsSteps.Count)];
+			if (i > 0)
+			{
+				sound.source.volume = sound.volume * volume;
+                sound.source.Play();
+			}
+		}
+    }
 }

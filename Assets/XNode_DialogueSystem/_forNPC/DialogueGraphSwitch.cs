@@ -10,7 +10,7 @@ public class DialogueGraphSwitch : MonoBehaviour
         if(col.gameObject.tag == "Player"){
             GameObject player = GameObject.FindWithTag("Player");
             NodeParser dialogueNum = player.GetComponent<NodeParser>();
-            dialogueNum.g = graphNumber;
+            dialogueNum.ChangeNodesGraph(graphNumber);
         }
     }
 

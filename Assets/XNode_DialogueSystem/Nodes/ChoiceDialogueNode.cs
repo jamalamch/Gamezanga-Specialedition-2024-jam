@@ -12,7 +12,8 @@ public class ChoiceDialogueNode : BaseNode {
     [Output(dynamicPortList = true)] public List<string> Answers;
     public SpeakerName speakerName; 
     [TextArea] public string DialogueText;
-     
+    public int answersIndex;
+
     public override string GetString(){
 		return "ChoiceDialogueNode/" + DialogueNode.GetSpeakerName(speakerName) + "/" + DialogueText + "/" + Answers[0];
 	}

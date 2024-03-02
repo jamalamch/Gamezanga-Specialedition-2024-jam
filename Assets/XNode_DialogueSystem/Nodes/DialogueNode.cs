@@ -32,6 +32,10 @@ public class DialogueNode : BaseNode {
 				return "ﺩﻮﻌﺴﻣ";
             case SpeakerName.mostapha:
                 return "ﻰﻔﻄﺴﻣ";
+            case SpeakerName.jamal:
+                return "ﻝﺎﻤﺟ";
+            case SpeakerName.khalid:
+                return "ﺪﻟﺎﺧ";
         }
 		return "";
 	}
@@ -39,5 +43,5 @@ public class DialogueNode : BaseNode {
 
 public enum SpeakerName
 {
-    masouad, mostapha
+    masouad, mostapha, jamal, khalid
 }

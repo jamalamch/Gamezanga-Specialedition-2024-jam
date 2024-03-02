@@ -1,0 +1,875 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-7192983528267382982
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 04f802f5f1acd2e4cb6136c87815f4c2, type: 3}
+  m_Name: Dialogue
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: 2376, y: 248}
+  ports:
+    keys:
+    - input
+    - exit
+    values:
+    - _fieldName: input
+      _node: {fileID: -7192983528267382982}
+      _typeQualifiedName: Connection, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+      connections:
+      - fieldName: exit
+        node: {fileID: -6893156144019944781}
+        reroutePoints: []
+      - fieldName: exit
+        node: {fileID: -5620210280334711006}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: exit
+      _node: {fileID: -7192983528267382982}
+      _typeQualifiedName: Connection, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+      connections:
+      - fieldName: input
+        node: {fileID: 3493747675826279449}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+  speakerName: 2
+  dialogueLine: ".\uFE80\uFE8E\uFEA4\uFEE0\uFEDF\uFE8D\uFEED \uFED5\uFE8D\uFEAD\uFEED\uFEF7\uFE8D
+    \uFEF2\uFED3 \uFE8E\uFEEB\uFEAF\uFE8E\uFEA0\uFE98\uFEA3\uFE8D \uFED6\uFEF3\uFEAE\uFEC3
+    \uFEE6\uFECB \uFEE5\uFE8E\uFEA7\uFEAA\uFEDF\uFE8D \uFEED\uFE83 \uFEA5\uFE8E\uFEB3\uFEED\uFEF7\uFE8D
+    \uFEED\uFE83 \uFEAD\uFE8E\uFE92\uFED0\uFEDF\uFE8D \uFEDE\uFE9C\uFEE3 \uFE94\uFED8\uFEF4\uFED7\uFEAA\uFEDF\uFE8D
+    \uFE95\uFE8E\uFEE4\uFEF4\uFEB4\uFEA0\uFEDF\uFE8D \uFEE6\uFEE3 \uFE80\uFE8D\uFEEE\uFEEC\uFEDF\uFE8D
+    \uFE94\uFEF4\uFED4\uFEBC\uFE97\uFEED \uFE94\uFE9B\uFEEE\uFEE0\uFEE4\uFEDF\uFE8D
+    \uFE95\uFE8D\uFEAF\uFE8E\uFED0\uFEDF\uFE8D \uFEB9\uFE8E\uFEBC\uFE98\uFEE3\uFEFB
+    \uFE8D\u064B\uFEC0\uFEF3\uFE83 \uFE93\uFEAF\uFE8E\uFE98\uFEE4\uFEE3 \uFE93\uFEAE\uFEF4\uFE92\uFEDC\uFEDF\uFE8D
+    \uFEAD\uFE8E\uFEA0\uFEB7\uFEF7\uFE8D \uFEAE\uFE92\uFE98\uFECB\u064F\uFE97\uFEED
+    .\uFEFB\uFE8E\uFEE4\uFE98\uFEA3\uFE8D \uFEAE\uFE9C\uFEDB\uFE83 \uFE90\uFEC3\uFEAE\uFEDF\uFE8D
+    \uFEE5\uFEAA\uFEE4\uFEDF\uFE8D \u0651\uFEAE\uFEA3 \uFEDE\uFECC\uFEA0\uFEF3 \uFE8E\uFEE4\uFEE3
+    \u060C\uFE94\uFEF3\uFEEE\uFE8C\uFEE3 \uFE95\uFE8E\uFE9F\uFEAD\uFEA9 \uFEF2\uFEE7\uFE8E\uFEE4\uFE9B\uFEED
+    \uFEE6\uFEF4\uFE98\uFE9F\uFEAD\uFEA9 \uFEE6\uFEF4\uFE91 \uFEA1\uFEED\uFE8D\uFEAE\uFE98\uFEF3
+    \uFE8E\uFEE4\uFE91 \uFE80\uFE8D\uFEEE\uFEEC\uFEDF\uFE8D \uFEAA\uFEF3\uFEAE\uFE92\uFE97
+    \uFEF0\uFEE0\uFECB \uFEAA\uFECB\uFE8E\uFEB4\uFEF3 \uFEE5\uFE83 \uFEE5\uFEAA\uFEE4\uFEDF\uFE8D
+    \uFEF2\uFED3 \uFEAD\uFE8E\uFEA0\uFEB7\uFEF8\uFEDF \uFEF2\uFEA0\uFEF4\uFE97\uFE8D\uFEAE\uFE98\uFEB3\uFEFB\uFE8D
+    \uFECA\uFEF3\uFEAF\uFEEE\uFE98\uFEDF\uFE8D \uFEE5\uFE84\uFEB7 \uFEE6\uFEE3 \u060C\uFECA\uFED7\uFE8D\uFEEE\uFEDF\uFE8D
+    \uFEF2\uFED3\uFEED .\uFE8A\uFED3\uFE8D\uFEAA\uFEDF\uFE8D \uFEA5\uFE8E\uFEE8\uFEE4\uFEDF\uFE8D
+    \uFE95\uFE8D\uFEAB \uFEE6\uFEDB\uFE8E\uFEE3\uFEF8\uFEDF \uFE8D\u064B\uFEC0\uFEF3\uFE83
+    \uFE94\uFEF3\uFEAD\uFEED\uFEAE\uFEBF \uFEAE\uFE92\uFE98\uFECB\u064F\uFE97 \uFEF2\uFEEB\uFEED
+    .\uFE8E\uFEEC\uFEF4\uFED3 \uFEB6\uFEF4\uFECC\uFEE0\uFEDF \uFEAE\uFE9C\uFEDB\uFE83
+    \uFE94\uFEF4\uFEA4\uFEBB \uFEE6\uFEDB\uFE8E\uFEE3\uFE83 \uFEE5\uFEAA\uFEE4\uFEDF\uFE8D
+    \uFEDE\uFECC\uFEA0\uFEF3 \uFE8E\uFEE4\uFEE3 \u060C\uFE80\uFE8D\uFEEE\uFEEC\uFEDF\uFE8D
+    \uFE93\uFEA9\uFEEE\uFE9F \uFEE6\uFEF4\uFEB4\uFEA4\uFE97\uFEED \uFEA5\uFE8E\uFEE8\uFEE4\uFEDF\uFE8D
+    \uFEAE\uFEF4\uFED0\uFE97 \uFE93\uFE84\uFEC3\uFEED \uFEE6\uFEE3 \uFED2\uFEF4\uFED4\uFEA8\uFE98\uFEE0\uFEDF
+    \uFE94\uFEE3\uFE8E\uFEEB \uFE94\uFEE0\uFEF4\uFEB3\uFEED \uFEAD\uFE8E\uFEA0\uFEB7\uFEF7\uFE8D
+    \u0651\uFEAA\uFECB\u064F\uFE97"
+--- !u!114 &-6893156144019944781
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 04f802f5f1acd2e4cb6136c87815f4c2, type: 3}
+  m_Name: Dialogue
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: 2040, y: 408}
+  ports:
+    keys:
+    - input
+    - exit
+    values:
+    - _fieldName: input
+      _node: {fileID: -6893156144019944781}
+      _typeQualifiedName: Connection, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+      connections:
+      - fieldName: exit
+        node: {fileID: 4585884933109109435}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: exit
+      _node: {fileID: -6893156144019944781}
+      _typeQualifiedName: Connection, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+      connections:
+      - fieldName: input
+        node: {fileID: -7192983528267382982}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+  speakerName: 2
+  dialogueLine: ".\uFEDD\uFE8E\uFE9C\uFEE4\uFEDF\uFE8D \uFEDE\uFEF4\uFE92\uFEB3 \uFEF0\uFEE0\uFECB
+    \u060C\uFEF2\uFEB4\uFED4\uFEE8\uFEDF\uFE8D \uFEC2\uFED0\uFEC0\uFEDF\uFE8D\uFEED
+    \uFECA\uFED4\uFE97\uFEAE\uFEE4\uFEDF\uFE8D \uFEE1\uFEAA\uFEDF\uFE8D \uFEC2\uFED0\uFEBF
+    \uFEBE\uFED4\uFEA7 \uFED6\uFEF3\uFEAE\uFEC3 \uFEE6\uFECB \uFE94\uFEF4\uFEE0\uFED8\uFECC\uFEDF\uFE8D\uFEED
+    \uFE94\uFEF4\uFEE7\uFEAA\uFE92\uFEDF\uFE8D \uFE94\uFEA4\uFEBC\uFEDF\uFE8D \uFE8E\uFEE7\u0651\uFEB4\uFEA4\uFEF3
+    \uFEE5\uFE83 \uFEE6\uFEDC\uFEE4\uFEF3 \uFE8E\uFEEC\uFEF4\uFEDF\uFE87 \uFEDD\uFEEE\uFEBB\uFEEE\uFEDF\uFE8D
+    \uFE94\uFEF4\uFEE7\uFE8E\uFEDC\uFEE3\uFE87\uFEED \uFE80\uFE8D\uFEAE\uFEC0\uFEA8\uFEDF\uFE8D
+    \uFE95\uFE8E\uFEA3\uFE8E\uFEB4\uFEE4\uFEDF\uFE8D \uFEE6\uFEE3 \uFE8F\uFEAE\uFED8\uFEDF\uFE8E\uFE91
+    \uFEB6\uFEF4\uFECC\uFEDF\uFE8D \uFEE5\uFE83 \uFE99\uFE8E\uFEA4\uFE91\uFEF7\uFE8D
+    \uFEAE\uFEEC\uFEC7\u064F\uFE97\uFEED .\uFE8D\u064B\uFEC0\uFEF3\uFE83 \uFEAE\uFEB8\uFE92\uFEDF\uFE8D
+    \uFEE6\uFEA4\uFEE7 \uFE8E\uFEE8\uFEF4\uFEE0\uFECB \uFE94\uFEF4\uFE91\uFE8E\uFEA0\uFEF3\uFE87
+    \uFEAD\uFE8E\uFE9B\uFE81 \uFE8E\uFEEC\uFEDF \u0651\uFEE5\uFE83 \uFE9A\uFEF4\uFEA3
+    \u2013 \uFE90\uFEB4\uFEA4\uFED3 \uFE94\uFE8C\uFEF4\uFE92\uFEE0\uFEDF \uFE93\uFEAA\uFEF4\uFED4\uFEE3
+    \uFE96\uFEB4\uFEF4\uFEDF \uFEAD\uFE8E\uFEA0\uFEB7\uFEF7\uFE8D"
+--- !u!114 &-5796264792949606909
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 04f802f5f1acd2e4cb6136c87815f4c2, type: 3}
+  m_Name: Dialogue
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: 888, y: 56}
+  ports:
+    keys:
+    - input
+    - exit
+    values:
+    - _fieldName: input
+      _node: {fileID: -5796264792949606909}
+      _typeQualifiedName: Connection, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+      connections:
+      - fieldName: Answers 0
+        node: {fileID: 7159994039257636182}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: exit
+      _node: {fileID: -5796264792949606909}
+      _typeQualifiedName: Connection, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+      connections:
+      - fieldName: input
+        node: {fileID: 2533706056320431953}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+  speakerName: 2
+  dialogueLine: " \uFE8E\uFEE8\uFE91 \uFE8E\uFEF4\uFEEB \uFEE5\uFEA9\uFE8D"
+--- !u!114 &-5620210280334711006
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 04f802f5f1acd2e4cb6136c87815f4c2, type: 3}
+  m_Name: Dialogue
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: 2184, y: -40}
+  ports:
+    keys:
+    - input
+    - exit
+    values:
+    - _fieldName: input
+      _node: {fileID: -5620210280334711006}
+      _typeQualifiedName: Connection, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+      connections:
+      - fieldName: exit
+        node: {fileID: -5366830189685857879}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: exit
+      _node: {fileID: -5620210280334711006}
+      _typeQualifiedName: Connection, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+      connections:
+      - fieldName: input
+        node: {fileID: -7192983528267382982}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+  speakerName: 2
+  dialogueLine: ".\uFEE5\uFEEE\uFE91\uFEAE\uFEDC\uFEDF\uFE8D \uFEAA\uFEF4\uFEB4\uFEDB\uFE83
+    \uFEF2\uFEE7\uFE8E\uFE9B \uFEE6\uFEE3 \uFEBA\uFEE0\uFEA8\uFE98\uFEDF\uFE8D \uFEF0\uFEE0\uFECB
+    \uFEAD\uFE8E\uFEA0\uFEB7\uFEF7\uFE8D \uFEDE\uFEE4\uFECC\uFE97\uFEED \u060C\uFEF1\uFEEE\uFEA0\uFEDF\uFE8D
+    \uFED1\uFEFC\uFED0\uFEDF\uFE8D \uFEDE\uFEA7\uFE8D\uFEA9 \uFE95\uFE8E\uFE9B\uFEEE\uFEE0\uFEE4\uFEDF\uFE8D
+    \uFE94\uFED3\uFE8E\uFEDB \uFEE6\uFEE3 \uFE80\uFE8D\uFEEE\uFEEC\uFEDF\uFE8D \uFE94\uFEF4\uFED8\uFEE8\uFE97
+    \uFEF0\uFEE0\uFECB \uFEAA\uFEF4\uFE9F \uFEDE\uFEDC\uFEB8\uFE91 \uFEAD\uFE8E\uFEA0\uFEB7\uFEF7\uFE8D
+    \uFEAA\uFECB\uFE8E\uFEB4\uFE97 \uFE9A\uFEF4\uFEA3 \u060C\uFE80\uFE8D\uFEEE\uFEEC\uFEDF\uFE8D
+    \uFE94\uFEF4\uFED8\uFEE8\uFE97\uFEED \uFE99\uFEEE\uFEE0\uFE98\uFEDF\uFE8D \uFE94\uFE91\uFEAD\uFE8E\uFEA4\uFEE3
+    \uFEF2\uFED3 \uFE8E\uFEEB\uFEAF\uFEAE\uFE91\uFE83 \uFEDE\uFE9C\uFEE4\uFE98\uFEF3\uFEED
+    \u060C\uFE93\uFEAE\uFEF4\uFE9C\uFEDB \uFEAA\uFE8B\uFE8D\uFEEE\uFED3 \uFEAD\uFE8E\uFEA0\uFEB7\uFEF8\uFEDF"
+--- !u!114 &-5366830189685857879
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 04f802f5f1acd2e4cb6136c87815f4c2, type: 3}
+  m_Name: Dialogue
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: 1912, y: -184}
+  ports:
+    keys:
+    - input
+    - exit
+    values:
+    - _fieldName: input
+      _node: {fileID: -5366830189685857879}
+      _typeQualifiedName: Connection, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+      connections:
+      - fieldName: Answers 0
+        node: {fileID: 7234126143859233211}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: exit
+      _node: {fileID: -5366830189685857879}
+      _typeQualifiedName: Connection, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+      connections:
+      - fieldName: input
+        node: {fileID: -5620210280334711006}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+  speakerName: 2
+  dialogueLine: "\uFE93\uFE8E\uFEF4\uFEA4\uFEDF\uFE8D \uFE93\uFEA9\uFEEE\uFE9F \uFEE6\uFEF4\uFEB4\uFEA4\uFE97\uFEED
+    \uFE94\uFE8C\uFEF4\uFE92\uFEDF\uFE8D \uFEF0\uFEE0\uFECB \uFEC5\uFE8E\uFED4\uFEA4\uFEDF\uFE8D
+    \uFEF2\uFED3 \uFEE2\uFEEC\uFEB4\uFEF3\uFEED \uFEE2\uFEEC\uFEE3 \uFEAE\uFEE3\uFE83
+    \uFEAD\uFE8E\uFEA0\uFEB7\uFEF7\uFE8E\uFE91 \uFE80\uFE8E\uFEE8\uFE98\uFECB\uFEFB\uFE8D"
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 56b9b1e96b931e74c9120553962da057, type: 3}
+  m_Name: NPC2_DialogueGraph
+  m_EditorClassIdentifier: 
+  nodes:
+  - {fileID: 621742577810406902}
+  - {fileID: 4280929222234370450}
+  - {fileID: 4924517286002735604}
+  - {fileID: 7159994039257636182}
+  - {fileID: 3657699495671063213}
+  - {fileID: -5796264792949606909}
+  - {fileID: 2533706056320431953}
+  - {fileID: 4585884933109109435}
+  - {fileID: 7234126143859233211}
+  - {fileID: -5366830189685857879}
+  - {fileID: 147263626642953106}
+  - {fileID: -6893156144019944781}
+  - {fileID: -7192983528267382982}
+  - {fileID: -5620210280334711006}
+  - {fileID: 3493747675826279449}
+  start: {fileID: 621742577810406902}
+  current: {fileID: 2533706056320431953}
+  initNode: {fileID: 621742577810406902}
+--- !u!114 &147263626642953106
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 04f802f5f1acd2e4cb6136c87815f4c2, type: 3}
+  m_Name: Dialogue
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: 1432, y: -456}
+  ports:
+    keys:
+    - input
+    - exit
+    values:
+    - _fieldName: input
+      _node: {fileID: 147263626642953106}
+      _typeQualifiedName: Connection, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+      connections:
+      - fieldName: Answers 0
+        node: {fileID: 2533706056320431953}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: exit
+      _node: {fileID: 147263626642953106}
+      _typeQualifiedName: Connection, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+      connections:
+      - fieldName: input
+        node: {fileID: 7234126143859233211}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+  speakerName: 2
+  dialogueLine: ".\uFEDD\uFE8E\uFE9C\uFEE4\uFEDF\uFE8D \uFEDE\uFEF4\uFE92\uFEB3 \uFEF0\uFEE0\uFECB
+    \u060C\uFEF2\uFEB4\uFED4\uFEE8\uFEDF\uFE8D \uFEC2\uFED0\uFEC0\uFEDF\uFE8D\uFEED
+    \uFECA\uFED4\uFE97\uFEAE\uFEE4\uFEDF\uFE8D \uFEE1\uFEAA\uFEDF\uFE8D \uFEC2\uFED0\uFEBF
+    \uFEBE\uFED4\uFEA7 \uFED6\uFEF3\uFEAE\uFEC3 \uFEE6\uFECB \uFE94\uFEF4\uFEE0\uFED8\uFECC\uFEDF\uFE8D\uFEED
+    \uFE94\uFEF4\uFEE7\uFEAA\uFE92\uFEDF\uFE8D \uFE94\uFEA4\uFEBC\uFEDF\uFE8D \uFE8E\uFEE7\u0651\uFEB4\uFEA4\uFEF3
+    \uFEE5\uFE83 \uFEE6\uFEDC\uFEE4\uFEF3 \uFE8E\uFEEC\uFEF4\uFEDF\uFE87 \uFEDD\uFEEE\uFEBB\uFEEE\uFEDF\uFE8D
+    \uFE94\uFEF4\uFEE7\uFE8E\uFEDC\uFEE3\uFE87\uFEED \uFE80\uFE8D\uFEAE\uFEC0\uFEA8\uFEDF\uFE8D
+    \uFE95\uFE8E\uFEA3\uFE8E\uFEB4\uFEE4\uFEDF\uFE8D \uFEE6\uFEE3 \uFE8F\uFEAE\uFED8\uFEDF\uFE8E\uFE91
+    \uFEB6\uFEF4\uFECC\uFEDF\uFE8D \uFEE5\uFE83 \uFE99\uFE8E\uFEA4\uFE91\uFEF7\uFE8D
+    \uFEAE\uFEEC\uFEC7\u064F\uFE97\uFEED .\uFE8D\u064B\uFEC0\uFEF3\uFE83 \uFEAE\uFEB8\uFE92\uFEDF\uFE8D
+    \uFEE6\uFEA4\uFEE7 \uFE8E\uFEE8\uFEF4\uFEE0\uFECB \uFE94\uFEF4\uFE91\uFE8E\uFEA0\uFEF3\uFE87
+    \uFEAD\uFE8E\uFE9B\uFE81 \uFE8E\uFEEC\uFEDF \u0651\uFEE5\uFE83 \uFE9A\uFEF4\uFEA3
+    \u2013 \uFE90\uFEB4\uFEA4\uFED3 \uFE94\uFE8C\uFEF4\uFE92\uFEE0\uFEDF \uFE93\uFEAA\uFEF4\uFED4\uFEE3
+    \uFE96\uFEB4\uFEF4\uFEDF \uFEAD\uFE8E\uFEA0\uFEB7\uFEF7\uFE8D"
+--- !u!114 &621742577810406902
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 52f4a7d20c1aae54e9353afc08ae9d55, type: 3}
+  m_Name: Start
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: 184, y: -56}
+  ports:
+    keys:
+    - exit
+    values:
+    - _fieldName: exit
+      _node: {fileID: 621742577810406902}
+      _typeQualifiedName: Connection, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+      connections:
+      - fieldName: input
+        node: {fileID: 4924517286002735604}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+--- !u!114 &2533706056320431953
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dd70b2f22da00d642a11feaf79c62f94, type: 3}
+  m_Name: Choice Dialogue
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: 1208, y: -8}
+  ports:
+    keys:
+    - input
+    - Answers
+    - Answers 0
+    - Answers 1
+    values:
+    - _fieldName: input
+      _node: {fileID: 2533706056320431953}
+      _typeQualifiedName: Connection, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+      connections:
+      - fieldName: exit
+        node: {fileID: -5796264792949606909}
+        reroutePoints: []
+      - fieldName: exit
+        node: {fileID: 3657699495671063213}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: Answers
+      _node: {fileID: 2533706056320431953}
+      _typeQualifiedName: System.Collections.Generic.List`1[[System.String, mscorlib,
+        Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]], mscorlib,
+        Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+      connections: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: Answers 0
+      _node: {fileID: 2533706056320431953}
+      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections:
+      - fieldName: input
+        node: {fileID: 147263626642953106}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 1
+    - _fieldName: Answers 1
+      _node: {fileID: 2533706056320431953}
+      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections:
+      - fieldName: input
+        node: {fileID: 4585884933109109435}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 1
+  Answers:
+  - " \uFEE2\uFECC\uFEE7"
+  - "\uFEFB"
+  speakerName: 2
+  DialogueText: "\uFEAD\uFE8E\uFEA0\uFEB7\uFEFB\uFE8D \uFEF2\uFE92\uFEA4\uFEE3 \uFEE6\uFEE3
+    \uFE96\uFEE7\uFE8D \uFEDE\uFEEB"
+--- !u!114 &3493747675826279449
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 04f802f5f1acd2e4cb6136c87815f4c2, type: 3}
+  m_Name: Dialogue
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: 2664, y: 72}
+  ports:
+    keys:
+    - input
+    - exit
+    values:
+    - _fieldName: input
+      _node: {fileID: 3493747675826279449}
+      _typeQualifiedName: Connection, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+      connections:
+      - fieldName: exit
+        node: {fileID: -7192983528267382982}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: exit
+      _node: {fileID: 3493747675826279449}
+      _typeQualifiedName: Connection, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+      connections:
+      - fieldName: entry
+        node: {fileID: 4280929222234370450}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+  speakerName: 2
+  dialogueLine: "\uFE95\uFE8E\uFEF3\uFEAA\uFEA4\uFE98\uFEDF\uFE8D \uFE94\uFED8\uFEF3\uFEAA\uFEA3
+    \uFEF2\uFED3 \uFEDA\uFE98\uFEE0\uFEA3\uFEAE\uFE91 \uFECA\uFE98\uFEE4\uFE98\uFEB3\uFE8D"
+--- !u!114 &3657699495671063213
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 04f802f5f1acd2e4cb6136c87815f4c2, type: 3}
+  m_Name: Dialogue
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: 888, y: 264}
+  ports:
+    keys:
+    - input
+    - exit
+    values:
+    - _fieldName: input
+      _node: {fileID: 3657699495671063213}
+      _typeQualifiedName: Connection, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+      connections:
+      - fieldName: Answers 1
+        node: {fileID: 7159994039257636182}
+        reroutePoints: []
+      - fieldName: Answers 2
+        node: {fileID: 7159994039257636182}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: exit
+      _node: {fileID: 3657699495671063213}
+      _typeQualifiedName: Connection, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+      connections:
+      - fieldName: input
+        node: {fileID: 2533706056320431953}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+  speakerName: 2
+  dialogueLine: " \uFEDE\uFEF4\uFEE0\uFED7 \uFEAA\uFECC\uFE91 \uFEB1\uFE8E\uFEE4\uFEA4\uFEDF\uFE8E\uFE91
+    \uFEAE\uFECC\uFEB8\uFE98\uFEB3 \uFED6\uFEE0\uFED8\uFE97 \uFEFB"
+--- !u!114 &4280929222234370450
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8bedffd65def3fb4db60c989ff05df2c, type: 3}
+  m_Name: Exit
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: 3032, y: 120}
+  ports:
+    keys:
+    - entry
+    values:
+    - _fieldName: entry
+      _node: {fileID: 4280929222234370450}
+      _typeQualifiedName: Connection, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+      connections:
+      - fieldName: exit
+        node: {fileID: 3493747675826279449}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+--- !u!114 &4585884933109109435
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 04f802f5f1acd2e4cb6136c87815f4c2, type: 3}
+  m_Name: Dialogue
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: 1768, y: 344}
+  ports:
+    keys:
+    - input
+    - exit
+    values:
+    - _fieldName: input
+      _node: {fileID: 4585884933109109435}
+      _typeQualifiedName: Connection, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+      connections:
+      - fieldName: Answers 1
+        node: {fileID: 2533706056320431953}
+        reroutePoints: []
+      - fieldName: Answers 2
+        node: {fileID: 7234126143859233211}
+        reroutePoints: []
+      - fieldName: Answers 1
+        node: {fileID: 7234126143859233211}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: exit
+      _node: {fileID: 4585884933109109435}
+      _typeQualifiedName: Connection, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+      connections:
+      - fieldName: input
+        node: {fileID: -6893156144019944781}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+  speakerName: 2
+  dialogueLine: "\uFEB1\uFE8E\uFE91 \uFEFB"
+--- !u!114 &4924517286002735604
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 04f802f5f1acd2e4cb6136c87815f4c2, type: 3}
+  m_Name: Dialogue
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: 280, y: 88}
+  ports:
+    keys:
+    - input
+    - exit
+    values:
+    - _fieldName: input
+      _node: {fileID: 4924517286002735604}
+      _typeQualifiedName: Connection, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+      connections:
+      - fieldName: exit
+        node: {fileID: 621742577810406902}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: exit
+      _node: {fileID: 4924517286002735604}
+      _typeQualifiedName: Connection, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+      connections:
+      - fieldName: input
+        node: {fileID: 7159994039257636182}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+  speakerName: 2
+  dialogueLine: " \uFE90\uFEB3\uFE8E\uFEE8\uFEE4\uFEDF\uFE8D \uFEE5\uFE8E\uFEDC\uFEE4\uFEDF\uFE8D
+    \uFEF2\uFED3 \uFE96\uFEE7\uFE8E\uFED3 \uFE95\uFE8E\uFEF3\uFEAA\uFEA4\uFE98\uFEDF\uFE8E\uFE91
+    \uFE94\uFE8C\uFEF4\uFEE0\uFEE3 \uFE94\uFE92\uFECC\uFEDF \uFEE6\uFECB \uFE96\uFEA4\uFE92\uFE97
+    \uFE96\uFEE8\uFEDB \uFEE5\uFE8D \uFEDA\uFE91 \uFE8E\uFE92\uFEA3\uFEAE\uFEE3"
+--- !u!114 &7159994039257636182
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dd70b2f22da00d642a11feaf79c62f94, type: 3}
+  m_Name: Choice Dialogue
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: 568, y: 40}
+  ports:
+    keys:
+    - input
+    - Answers
+    - Answers 0
+    - Answers 1
+    - Answers 2
+    values:
+    - _fieldName: input
+      _node: {fileID: 7159994039257636182}
+      _typeQualifiedName: Connection, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+      connections:
+      - fieldName: exit
+        node: {fileID: 4924517286002735604}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: Answers
+      _node: {fileID: 7159994039257636182}
+      _typeQualifiedName: System.Collections.Generic.List`1[[System.String, mscorlib,
+        Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]], mscorlib,
+        Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+      connections: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: Answers 0
+      _node: {fileID: 7159994039257636182}
+      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections:
+      - fieldName: input
+        node: {fileID: -5796264792949606909}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 1
+    - _fieldName: Answers 1
+      _node: {fileID: 7159994039257636182}
+      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections:
+      - fieldName: input
+        node: {fileID: 3657699495671063213}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 1
+    - _fieldName: Answers 2
+      _node: {fileID: 7159994039257636182}
+      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections:
+      - fieldName: input
+        node: {fileID: 3657699495671063213}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 1
+  Answers:
+  - " \uFEE2\uFECC\uFEE7"
+  - "\uFE80\uFEF2\uFEB8\uFEDF\uFE8D \uFEBE\uFECC\uFE91"
+  - "\uFEFB"
+  speakerName: 2
+  DialogueText: "\uFEB2\uFEE4\uFEA4\uFE98\uFEE3 \uFE96\uFEE7\uFE8D \uFEDE\uFEEB \uFE95\uFE8E\uFEF3\uFEAA\uFEA4\uFE98\uFEDF\uFE8D
+    \uFE94\uFED8\uFEF3\uFEAA\uFEA3 \uFEF2\uFED3 \uFEE6\uFEF4\uFEBF\uFEEE\uFEC0\uFEA4\uFEE4\uFEDF\uFE8D
+    \uFEE6\uFEE3 \uFE96\uFEE7\uFE8D"
+--- !u!114 &7234126143859233211
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dd70b2f22da00d642a11feaf79c62f94, type: 3}
+  m_Name: Choice Dialogue
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: 1592, y: -216}
+  ports:
+    keys:
+    - input
+    - Answers
+    - Answers 0
+    - Answers 1
+    - Answers 2
+    values:
+    - _fieldName: input
+      _node: {fileID: 7234126143859233211}
+      _typeQualifiedName: Connection, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+      connections:
+      - fieldName: exit
+        node: {fileID: 147263626642953106}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: Answers
+      _node: {fileID: 7234126143859233211}
+      _typeQualifiedName: System.Collections.Generic.List`1[[System.String, mscorlib,
+        Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]], mscorlib,
+        Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+      connections: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: Answers 0
+      _node: {fileID: 7234126143859233211}
+      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections:
+      - fieldName: input
+        node: {fileID: -5366830189685857879}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 1
+    - _fieldName: Answers 1
+      _node: {fileID: 7234126143859233211}
+      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections:
+      - fieldName: input
+        node: {fileID: 4585884933109109435}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 1
+    - _fieldName: Answers 2
+      _node: {fileID: 7234126143859233211}
+      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections:
+      - fieldName: input
+        node: {fileID: 4585884933109109435}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 1
+  Answers:
+  - "\uFEE2\uFECC\uFEE7"
+  - "\uFEFB"
+  - "\uFE80\uFEF2\uFEB8\uFEDF\uFE8D \uFEBE\uFECC\uFE91"
+  speakerName: 2
+  DialogueText: "\uFEAD\uFE8E\uFEA0\uFEB7\uFEFB\uFE8E\uFE91 \uFEF2\uFEE8\uFE98\uFECC\uFE97
+    \uFEDE\uFEEB"

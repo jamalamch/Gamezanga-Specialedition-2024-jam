@@ -1,6 +1,7 @@
 using System;
 using UnityEngine;
 using System.Collections.Generic;
+using static UnityStandardAssets.Characters.FirstPerson.RigidbodyFirstPersonController;
 
 namespace UnityStandardAssets.Characters.FirstPerson
 {
@@ -154,11 +155,12 @@ namespace UnityStandardAssets.Characters.FirstPerson
                 Vector3 desiredMove = cam.transform.forward*input.y + cam.transform.right*input.x;
                 desiredMove = Vector3.ProjectOnPlane(desiredMove, m_GroundContactNormal).normalized;
 
-                desiredMove.x = desiredMove.x*movementSettings.CurrentTargetSpeed;
-                desiredMove.z = desiredMove.z*movementSettings.CurrentTargetSpeed;
-                desiredMove.y = desiredMove.y*movementSettings.CurrentTargetSpeed;
-                if (m_RigidBody.velocity.sqrMagnitude <
-                    (movementSettings.CurrentTargetSpeed*movementSettings.CurrentTargetSpeed))
+                float CurrentTargetSpeed = (!m_IsGrounded ? 0.1f : 1f) * movementSettings.CurrentTargetSpeed;
+
+                desiredMove.x = desiredMove.x* CurrentTargetSpeed;
+                desiredMove.z = desiredMove.z* CurrentTargetSpeed;
+                desiredMove.y = desiredMove.y*CurrentTargetSpeed;
+                if (m_RigidBody.velocity.sqrMagnitude < (CurrentTargetSpeed*CurrentTargetSpeed))
                 {
                     m_RigidBody.AddForce(desiredMove*SlopeMultiplier(), ForceMode.Impulse);
                 }
@@ -173,13 +175,19 @@ namespace UnityStandardAssets.Characters.FirstPerson
                     m_RigidBody.drag = 0f;
                     m_RigidBody.velocity = new Vector3(m_RigidBody.velocity.x, 0f, m_RigidBody.velocity.z);
                     m_RigidBody.AddForce(new Vector3(0f, movementSettings.JumpForce, 0f), ForceMode.Impulse);
+                    if(!m_Jumping)
+                        AudioManager.instance.Play("jumpUp");
                     m_Jumping = true;
                 }
 
-                if (!m_Jumping && Mathf.Abs(input.x) < float.Epsilon && Mathf.Abs(input.y) < float.Epsilon && m_RigidBody.velocity.magnitude < 1f)
+                float mag = m_RigidBody.velocity.magnitude;
+
+                if (!m_Jumping && Mathf.Abs(input.x) < float.Epsilon && Mathf.Abs(input.y) < float.Epsilon && mag < 1f)
                 {
                     m_RigidBody.Sleep();
                 }
+                else
+                    AudioManager.instance.PlayStep(mag / movementSettings.CurrentTargetSpeed);
             }
             else
             {
@@ -265,6 +273,7 @@ namespace UnityStandardAssets.Characters.FirstPerson
             if (!m_PreviouslyGrounded && m_IsGrounded && m_Jumping)
             {
                 m_Jumping = false;
+                AudioManager.instance.Play("jumpDown");
             }
         }
     }

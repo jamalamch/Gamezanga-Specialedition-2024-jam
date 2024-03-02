@@ -1,14 +1,8 @@
-using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
-using UnityEngine.UI;
-using XNode;
-using TMPro;
 using System;
+using System.Collections;
+using UIParty;
+using UnityEngine;
 using UnityStandardAssets.Characters.FirstPerson;
-using UnityEngine.Events;
-using System.Linq;
-using System.Reflection;
 
 
 public class NodeParser : MonoBehaviour
@@ -21,32 +15,24 @@ public class NodeParser : MonoBehaviour
 
     public GameObject Player;
 
-    private string answer;
-
     private ChoiceDialogueNode activeSegment;
     Coroutine _parser;
 
     //public Image speakerImage;
-
+    int _answer;
     void Start()
     {
         try
         {
-            foreach (BaseNode b in graph[g].nodes)
+            foreach (var segment in graph)
             {
-                if (b.GetString() == "Start")
-                { //"b" is a reference to whatever node it's found next. It's an enumerator variable 
-                    graph[g].current = b; //Make this node the starting point. The [g] sets what graph to use in the array OnTriggerEnter
-                    break;
-                }
+                segment.Start();
             }
         }
         catch (NullReferenceException)
         {
             Debug.LogError("ERROR: DialogueGraphs are not there");
         }
-        _parser = StartCoroutine(ParseNode());
-
     }
     void Update()
     {
@@ -58,6 +44,9 @@ public class NodeParser : MonoBehaviour
         panelDialog.ButtonContainerActive(false);
         BaseNode b = graph[g].current;
         var port = activeSegment.GetPort("Answers " + clickedIndex);
+
+        if (_answer == clickedIndex)
+            CurrentStart.instance.AddValue(1);
 
         if (port.IsConnected)
         {
@@ -79,6 +68,14 @@ public class NodeParser : MonoBehaviour
         activeSegment = newSegment;
         panelDialog.SetDialog(newSegment.speakerName, newSegment.DialogueText, false);
         int answerIndex = 0;
+        if (newSegment is ImageChoiceDialoueNode newSegmentImage)
+        {
+            panelDialog.SetImage(newSegmentImage.sprite);
+        }
+        else
+            panelDialog.SetImage(null);
+
+        _answer = newSegment.answersIndex;
 
         panelDialog.CleareButons();
 
@@ -178,21 +175,7 @@ public class NodeParser : MonoBehaviour
         }
         try
         {
-            foreach (NodePort p in graph[g].current.Ports)
-            {
-                try
-                {
-                    if (p.fieldName == fieldName)
-                    {
-                        graph[g].current = p.Connection.node as BaseNode;
-                        break;
-                    }
-                }
-                catch (NullReferenceException)
-                {
-                    Debug.LogError("ERROR: Port is not connected");
-                }
-            }
+            graph[g].SetCurrentName(fieldName);
         }
         catch (NullReferenceException)
         {
@@ -200,6 +183,15 @@ public class NodeParser : MonoBehaviour
         }
 
         _parser = StartCoroutine(ParseNode());
+    }
 
+    internal void ChangeNodesGraph(int graphNumber)
+    {
+        g = graphNumber;
+        if (_parser != null)
+        {
+            StopCoroutine(_parser);
+            _parser = null;
+        }
     }
 }

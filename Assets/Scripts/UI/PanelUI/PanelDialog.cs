@@ -1,3 +1,4 @@
+using DG.Tweening;
 using System;
 using System.Collections;
 using System.Collections.Generic;
@@ -17,6 +18,9 @@ public class PanelDialog : PanelUI
 
     public GameObject InfoContainer, QuisContainer;
 
+    public Image imageIcon, imageCharcter;
+
+    [SerializeField] Sprite[] _iconChacter;
     Transform buttonParent => ButtonContainer.transform;
 
     protected override float _BagroundImageFade => 1;
@@ -28,6 +32,7 @@ public class PanelDialog : PanelUI
 
     public void SetDialog(SpeakerName speakerTxt, string dialogueTxt, bool infoText = true)
     {
+        SetCharterImage(_iconChacter[(int)speakerTxt]);
         SetDialog(DialogueNode.GetSpeakerName(speakerTxt), dialogueTxt, infoText);
     }
 
@@ -47,6 +52,26 @@ public class PanelDialog : PanelUI
         {
             Debug.LogError("ERROR: Dialogue text for Dialog is empty");
         }
+    }
+
+    public void SetImage(Sprite image)
+    {
+        if (image == null && imageIcon.sprite)
+        {
+            imageIcon.gameObject.SetActive(false);
+            ((RectTransform)buttonParent).DOSizeDelta(new Vector2(600, 200), 0);
+        }
+        else if(imageIcon.sprite == null && image != null)
+        {
+            imageIcon.gameObject.SetActive(true);
+            imageIcon.sprite = image;
+            ((RectTransform)buttonParent).DOSizeDelta(new Vector2(417, 200), 0);
+        }
+    }
+
+    public void SetCharterImage(Sprite icon)
+    {
+        imageCharcter.sprite = icon;
     }
 
     public void AddAnswer(string answer, Action action)
