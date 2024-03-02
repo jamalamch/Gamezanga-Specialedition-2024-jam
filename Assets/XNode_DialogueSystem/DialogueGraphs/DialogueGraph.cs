@@ -14,10 +14,4 @@ public class DialogueGraph : NodeGraph {
         start = initNode; //loops back to the start node
         current = initNode;
     }
-
-    
-
-
-  
-	
 }

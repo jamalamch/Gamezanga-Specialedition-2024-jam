@@ -31,7 +31,7 @@ public class DialogueNode : BaseNode {
 			case SpeakerName.masouad:
 				return "ﺩﻮﻌﺴﻣ";
             case SpeakerName.mostapha:
-                return "ﻰﻔﻄﺴﻤﻣ";
+                return "ﻰﻔﻄﺴﻣ";
         }
 		return "";
 	}

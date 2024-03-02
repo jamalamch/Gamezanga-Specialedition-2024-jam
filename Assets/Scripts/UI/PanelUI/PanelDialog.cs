@@ -10,10 +10,12 @@ using UnityEngine.UI;
 public class PanelDialog : PanelUI
 {
     public TextMeshProUGUI speaker;
-    public TextMeshProUGUI dialogue;
+    public TextMeshProUGUI dialogue, info;
 
     public GameObject buttonPrefab;
     public GameObject ButtonContainer;
+
+    public GameObject InfoContainer, QuisContainer;
 
     Transform buttonParent => ButtonContainer.transform;
 
@@ -24,15 +26,18 @@ public class PanelDialog : PanelUI
         Init();
     }
 
-    public void SetDialog(SpeakerName speakerTxt, string dialogueTxt)
+    public void SetDialog(SpeakerName speakerTxt, string dialogueTxt, bool infoText = true)
     {
-        SetDialog(DialogueNode.GetSpeakerName(speakerTxt), dialogueTxt);
+        SetDialog(DialogueNode.GetSpeakerName(speakerTxt), dialogueTxt, infoText);
     }
 
-    public void SetDialog(string speakerTxt, string dialogueTxt)
+    public void SetDialog(string speakerTxt, string dialogueTxt,bool infoText = true)
     {
+        InfoContainer.SetActive(infoText);
+        QuisContainer.SetActive(!infoText);
+
         speaker.text = speakerTxt;
-        dialogue.text = new string(dialogueTxt.Reverse().ToArray());
+        info.text = dialogue.text = new string(dialogueTxt.Reverse().ToArray());
 
         if (speaker.text == "")
         {
@@ -66,7 +71,8 @@ public class PanelDialog : PanelUI
 
     internal void ClearDialog()
     {
-        speaker.text = "";
-        dialogue.text = "";
+        InfoContainer.SetActive(false);
+        QuisContainer.SetActive(true);
+        speaker.text = info.text = dialogue.text = "";
     }
 }
