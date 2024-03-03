@@ -46,7 +46,10 @@ public class NodeParser : MonoBehaviour
         var port = activeSegment.GetPort("Answers " + clickedIndex);
 
         if (_answer == clickedIndex)
+        {
             CurrentStart.instance.AddValue(1);
+            AudioManager.instance.Play("win");
+        }
 
         if (port.IsConnected)
         {

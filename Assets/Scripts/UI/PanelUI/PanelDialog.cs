@@ -58,6 +58,7 @@ public class PanelDialog : PanelUI
     {
         if (image == null && imageIcon.sprite)
         {
+            imageIcon.sprite = null;
             imageIcon.gameObject.SetActive(false);
             ((RectTransform)buttonParent).DOSizeDelta(new Vector2(600, 200), 0);
         }

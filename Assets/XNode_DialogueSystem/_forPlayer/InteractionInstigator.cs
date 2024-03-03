@@ -39,8 +39,8 @@ public class InteractionInstigator : MonoBehaviour{
         Interactable interactable = other.GetComponent<Interactable>();
         if (interactable != null){
             m_NearbyInteractables.Remove(interactable);
-            Cursor.visible = false;
-            Cursor.lockState = CursorLockMode.Locked;
+            //Cursor.visible = false;
+            //Cursor.lockState = CursorLockMode.Locked;
         }
     }
 }
