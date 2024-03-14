@@ -1,23 +1,22 @@
 using DG.Tweening;
 using UnityEngine;
 using UnityEngine.UI;
-using Sirenix.OdinInspector;
 
 namespace UIParty
 {
     public class PanelUI : MonoBehaviour
     {
-        [FoldoutGroup("Transition"), SerializeField] Image _bagroundImage;
-        [FoldoutGroup("Transition"), SerializeField] private RectTransform _rect;
+        [SerializeField] Image _bagroundImage;
+        [SerializeField] private RectTransform _rect;
 
-        [FoldoutGroup("Transition"), SerializeField] protected float _duration;
-        [FoldoutGroup("Transition"), SerializeField] Vector2 _closePanel = new Vector2(0,-400);
-        [FoldoutGroup("Transition"), SerializeField] Vector2 _openPanel;
-        [FoldoutGroup("Transition"), SerializeField] bool _scale = false;
-        [FoldoutGroup("Transition"), SerializeField] bool _move = true;
-        [FoldoutGroup("Transition"), SerializeField] float _closeScale = 0;
-        [FoldoutGroup("Transition"), SerializeField] Ease _scaleOpenEaseType = Ease.Linear;
-        [FoldoutGroup("Transition"), SerializeField] Ease _scaleCloseEaseType = Ease.Linear;
+        [SerializeField] protected float _duration;
+        [SerializeField] Vector2 _closePanel = new Vector2(0,-400);
+        [SerializeField] Vector2 _openPanel;
+        [SerializeField] bool _scale = false;
+        [SerializeField] bool _move = true;
+        [SerializeField] float _closeScale = 0;
+        [SerializeField] Ease _scaleOpenEaseType = Ease.Linear;
+        [SerializeField] Ease _scaleCloseEaseType = Ease.Linear;
 
         [SerializeField] protected ButtonUI _closeButtonUI;
 

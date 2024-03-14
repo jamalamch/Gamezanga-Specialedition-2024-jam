@@ -474,6 +474,7 @@ MonoBehaviour:
   speakerName: 2
   DialogueText: "\uFEAD\uFE8E\uFEA0\uFEB7\uFEFB\uFE8D \uFEF2\uFE92\uFEA4\uFEE3 \uFEE6\uFEE3
     \uFE96\uFEE7\uFE8D \uFEDE\uFEEB"
+  answersIndex: 0
 --- !u!114 &3493747675826279449
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -518,8 +519,11 @@ MonoBehaviour:
       _typeConstraint: 0
       _dynamic: 0
   speakerName: 2
-  dialogueLine: "\uFE95\uFE8E\uFEF3\uFEAA\uFEA4\uFE98\uFEDF\uFE8D \uFE94\uFED8\uFEF3\uFEAA\uFEA3
-    \uFEF2\uFED3 \uFEDA\uFE98\uFEE0\uFEA3\uFEAE\uFE91 \uFECA\uFE98\uFEE4\uFE98\uFEB3\uFE8D"
+  dialogueLine: "\uFE95\uFE8E\uFED8\uFE91\uFE8E\uFEB4\uFEE4\uFEDF\uFE8D \uFECA\uFEF4\uFEE4\uFE9F
+    \uFEE2\uFEE4\uFE97\uFE8D \uFEED\r\n \uFEF0\uFEE0\uFECB\uFEFC\uFEDF \uFEA9\uFEEE\uFECC\uFEBC\uFEDF\uFE8D
+    \uFEF2\uFED3 \uFEAE\uFEE4\uFE98\uFEB3\uFE8D \uFEED\r\n\uFE95\uFE8E\uFEF3\uFEAA\uFEA4\uFE98\uFEDF\uFE8D
+    \uFE94\uFED8\uFEF3\uFEAA\uFEA3 \uFEF2\uFED3 \uFEDA\uFE98\uFEE0\uFEA3\uFEAE\uFE91
+    \uFECA\uFE98\uFEE4\uFE98\uFEB3\uFE8D"
 --- !u!114 &3657699495671063213
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -786,6 +790,7 @@ MonoBehaviour:
   DialogueText: "\uFEB2\uFEE4\uFEA4\uFE98\uFEE3 \uFE96\uFEE7\uFE8D \uFEDE\uFEEB \uFE95\uFE8E\uFEF3\uFEAA\uFEA4\uFE98\uFEDF\uFE8D
     \uFE94\uFED8\uFEF3\uFEAA\uFEA3 \uFEF2\uFED3 \uFEE6\uFEF4\uFEBF\uFEEE\uFEC0\uFEA4\uFEE4\uFEDF\uFE8D
     \uFEE6\uFEE3 \uFE96\uFEE7\uFE8D"
+  answersIndex: 0
 --- !u!114 &7234126143859233211
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -873,3 +878,4 @@ MonoBehaviour:
   speakerName: 2
   DialogueText: "\uFEAD\uFE8E\uFEA0\uFEB7\uFEFB\uFE8E\uFE91 \uFEF2\uFEE8\uFE98\uFECC\uFE97
     \uFEDE\uFEEB"
+  answersIndex: 0
